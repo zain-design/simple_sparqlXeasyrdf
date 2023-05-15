@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#"
+     xml:base="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:buku="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#ditulis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#ditulis">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#menulis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#menulis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#menulis">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaBuku -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaBuku">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaPenerbit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaPenerbit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaPenulis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#namaPenulis">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis1"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negeri 5 Menara</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramedia</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis1"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anak Rantau</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramedia</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis1"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rantau satu Muara</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramedia</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis2"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berjuta Rasanya</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahaka</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis2"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matahari</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahaka</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Buku"/>
+        <ditulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis2"/>
+        <namaBuku rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulan</namaBuku>
+        <namaPenerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahaka</namaPenerbit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku1"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku2"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku3"/>
+        <namaPenulis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad Fuadi</namaPenulis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#penulis2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#Penulis"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku4"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku5"/>
+        <menulis rdf:resource="http://www.semanticweb.org/zainuzzuha/ontologies/2022/11/buku#buku6"/>
+        <namaPenulis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tere Liye</namaPenulis>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

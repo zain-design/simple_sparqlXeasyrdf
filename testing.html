@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://www.bbc.co.uk/rd/projects -->
+<html lang="en" class="b-reith-sans-font b-reith-serif-font id-svg b-reith-sans-loaded b-reith-serif-loaded bp_3">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+    <title>Projects - BBC R&amp;D</title>
+    <meta name="description" content="Projects">
+
+
+
+    <script type="text/javascript">
+        var _sf_startpt = (new Date()).getTime()
+    </script>
+    <script src="./Projects - BBC R&amp;D_files/modernizr-mq-610b0617c37a77247bcef2a6717f9380.js.download"></script>
+
+    <link rel="alternate" type="application/atom+xml" title="BBC Research &amp; Development blog" href="https://www.bbc.co.uk/rd/blog/atom">
+
+    <!-- Orbit: 3.0.0-2289.7a752866 -->
+    <!-- Environment: live -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --bbc-font: ReithSans, Arial, Helvetica, freesans, sans-serif;
+            --bbc-font-legacy: Arial, Helvetica, freesans, sans-serif;
+        }
+    </style>
+
+    <script nomodule="" type="text/javascript" src="./Projects - BBC R&amp;D_files/polyfills.js.download"></script>
+
+    <link rel="stylesheet" href="./Projects - BBC R&amp;D_files/orbit-v5-ltr.min.css">
+    <script src="./Projects - BBC R&amp;D_files/require.min.js.download"></script>
+
+    <script type="text/javascript">
+        window.orbitData = {};
+
+        var additionalPageProperties = {};
+
+        window.orbitData.userProfileUrl = "https://www.bbc.co.uk/userprofile";
+
+        window.page = {
+            name: 'corporate.rd.projects.page' || null,
+            destination: 'BBC_CORPORATE_PS' || null,
+            producer: 'RD' || null,
+            section: '' || null,
+            site: '' || null,
+            contentId: '' || null,
+            contentType: '' || null,
+            edition: '' || null,
+            additionalProperties: additionalPageProperties
+        };
+        window.page.language = 'en';
+        window.page.language = 'en';
+
+        window.page.modal = false;
+    </script>
+
+    <script type="text/javascript">
+        ! function() {
+            var t = {
+                    930: function(t, e, r) {
+                        function n(t, e) {
+                            var r = Object.keys(t);
+                            if (Object.getOwnPropertySymbols) {
+                                var n = Object.getOwnPropertySymbols(t);
+                                e && (n = n.filter((function(e) {
+                                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                                }))), r.push.apply(r, n)
+                            }
+                            return r
+                        }
+
+                        function o(t) {
+                            for (var e = 1; e < arguments.length; e++) {
+                                var r = null != arguments[e] ? arguments[e] : {};
+                                e % 2 ? n(Object(r), !0).forEach((function(e) {
+                                    i(t, e, r[e])
+                                })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : n(Object(r)).forEach((function(e) {
+                                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(r, e))
+                                }))
+                            }
+                            return t
+                        }
+
+                        function i(t, e, r) {
+                            return e in t ? Object.defineProperty(t, e, {
+                                value: r,
+                                enumerable: !0,
+                                configurable: !0,
+                                writable: !0
+                            }) : t[e] = r, t
+                        }
+                        var c = r(382),
+                            u = r(19);
+                        window.bbcpage = c.init(o({}, window.page)), window.page = void 0, window.bbcuser = u.init(window, o({}, window.user)), window.user = void 0
+                    },
+                    382: function(t) {
+                        function e(t, e) {
+                            var r = Object.keys(t);
+                            if (Object.getOwnPropertySymbols) {
+                                var n = Object.getOwnPropertySymbols(t);
+                                e && (n = n.filter((function(e) {
+                                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                                }))), r.push.apply(r, n)
+                            }
+                            return r
+                        }
+
+                        function r(t) {
+                            for (var r = 1; r < arguments.length; r++) {
+                                var o = null != arguments[r] ? arguments[r] : {};
+                                r % 2 ? e(Object(o), !0).forEach((function(e) {
+                                    n(t, e, o[e])
+                                })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : e(Object(o)).forEach((function(e) {
+                                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(o, e))
+                                }))
+                            }
+                            return t
+                        }
+
+                        function n(t, e, r) {
+                            return e in t ? Object.defineProperty(t, e, {
+                                value: r,
+                                enumerable: !0,
+                                configurable: !0,
+                                writable: !0
+                            }) : t[e] = r, t
+                        }
+                        t.exports = {
+                            init: function(t) {
+                                var e = r({}, t);
+                                return document.addEventListener("bbc-page-reset", (function(t) {
+                                    var r;
+                                    t.detail && t.detail.page && (r = t.detail.page, e = Object.assign(e, r)), document.dispatchEvent(new Event("bbc-page-updated"))
+                                })), {
+                                    getName: function() {
+                                        return Promise.resolve(e.name || function() {
+                                            if ("file:" === window.location.protocol) return "local.file";
+                                            var t = window.location.pathname.replace(/\/$/, "").replace(/^\//, "").replace(/\//g, ".");
+                                            return "".concat(t, ".page")
+                                        }())
+                                    },
+                                    getLanguage: function() {
+                                        return Promise.resolve(e.language)
+                                    },
+                                    getDestination: function() {
+                                        return Promise.resolve(e.destination)
+                                    },
+                                    getProducer: function() {
+                                        return Promise.resolve(e.producer)
+                                    },
+                                    getSection: function() {
+                                        return Promise.resolve(e.section)
+                                    },
+                                    getContentType: function() {
+                                        return Promise.resolve(e.contentType)
+                                    },
+                                    getContentId: function() {
+                                        return Promise.resolve(e.contentId)
+                                    },
+                                    getReferrer: function() {
+                                        return Promise.resolve(document.referrer)
+                                    },
+                                    getAdditionalProperties: function() {
+                                        return Promise.resolve(r({}, e.additionalProperties))
+                                    },
+                                    loadCSS: function(t) {
+                                        return new Promise((function(e) {
+                                            var r = document.createElement("link");
+                                            r.type = "text/css", r.rel = "stylesheet", r.onload = function() {
+                                                e()
+                                            }, r.href = t, document.getElementsByTagName("head")[0].appendChild(r)
+                                        }))
+                                    },
+                                    isModal: function() {
+                                        return Promise.resolve(e.modal)
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    19: function(t, e, r) {
+                        function n(t) {
+                            return n = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                                return typeof t
+                            } : function(t) {
+                                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+                            }, n(t)
+                        }
+
+                        function o(t, e) {
+                            var r = Object.keys(t);
+                            if (Object.getOwnPropertySymbols) {
+                                var n = Object.getOwnPropertySymbols(t);
+                                e && (n = n.filter((function(e) {
+                                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                                }))), r.push.apply(r, n)
+                            }
+                            return r
+                        }
+
+                        function i(t) {
+                            for (var e = 1; e < arguments.length; e++) {
+                                var r = null != arguments[e] ? arguments[e] : {};
+                                e % 2 ? o(Object(r), !0).forEach((function(e) {
+                                    c(t, e, r[e])
+                                })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : o(Object(r)).forEach((function(e) {
+                                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(r, e))
+                                }))
+                            }
+                            return t
+                        }
+
+                        function c(t, e, r) {
+                            return e in t ? Object.defineProperty(t, e, {
+                                value: r,
+                                enumerable: !0,
+                                configurable: !0,
+                                writable: !0
+                            }) : t[e] = r, t
+                        }
+
+                        function u(t, e) {
+                            for (var r = 0; r < e.length; r++) {
+                                var n = e[r];
+                                n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
+                            }
+                        }
+
+                        function a(t, e) {
+                            if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
+                        }
+
+                        function f(t, e) {
+                            if (e && ("object" === n(e) || "function" == typeof e)) return e;
+                            if (void 0 !== e) throw new TypeError("Derived constructors may only return object or undefined");
+                            return function(t) {
+                                if (void 0 === t) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                                return t
+                            }(t)
+                        }
+
+                        function s(t) {
+                            var e = "function" == typeof Map ? new Map : void 0;
+                            return s = function(t) {
+                                if (null === t || (r = t, -1 === Function.toString.call(r).indexOf("[native code]"))) return t;
+                                var r;
+                                if ("function" != typeof t) throw new TypeError("Super expression must either be null or a function");
+                                if (void 0 !== e) {
+                                    if (e.has(t)) return e.get(t);
+                                    e.set(t, n)
+                                }
+
+                                function n() {
+                                    return l(t, arguments, d(this).constructor)
+                                }
+                                return n.prototype = Object.create(t.prototype, {
+                                    constructor: {
+                                        value: n,
+                                        enumerable: !1,
+                                        writable: !0,
+                                        configurable: !0
+                                    }
+                                }), h(n, t)
+                            }, s(t)
+                        }
+
+                        function l(t, e, r) {
+                            return l = p() ? Reflect.construct.bind() : function(t, e, r) {
+                                var n = [null];
+                                n.push.apply(n, e);
+                                var o = new(Function.bind.apply(t, n));
+                                return r && h(o, r.prototype), o
+                            }, l.apply(null, arguments)
+                        }
+
+                        function p() {
+                            if ("undefined" == typeof Reflect || !Reflect.construct) return !1;
+                            if (Reflect.construct.sham) return !1;
+                            if ("function" == typeof Proxy) return !0;
+                            try {
+                                return Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], (function() {}))), !0
+                            } catch (t) {
+                                return !1
+                            }
+                        }
+
+                        function h(t, e) {
+                            return h = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function(t, e) {
+                                return t.__proto__ = e, t
+                            }, h(t, e)
+                        }
+
+                        function d(t) {
+                            return d = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function(t) {
+                                return t.__proto__ || Object.getPrototypeOf(t)
+                            }, d(t)
+                        }
+                        var y = r(890).loadModule,
+                            v = function(t) {
+                                ! function(t, e) {
+                                    if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function");
+                                    t.prototype = Object.create(e && e.prototype, {
+                                        constructor: {
+                                            value: t,
+                                            writable: !0,
+                                            configurable: !0
+                                        }
+                                    }), Object.defineProperty(t, "prototype", {
+                                        writable: !1
+                                    }), e && h(t, e)
+                                }(s, t);
+                                var e, r, n, o, i, c = (e = s, r = p(), function() {
+                                    var t, n = d(e);
+                                    if (r) {
+                                        var o = d(this).constructor;
+                                        t = Reflect.construct(n, arguments, o)
+                                    } else t = n.apply(this, arguments);
+                                    return f(this, t)
+                                });
+
+                                function s() {
+                                    return a(this, s), c.apply(this, arguments)
+                                }
+                                return n = s, o && u(n.prototype, o), i && u(n, i), Object.defineProperty(n, "prototype", {
+                                    writable: !1
+                                }), n
+                            }(s(Error));
+                        t.exports = {
+                            init: function(t, e) {
+                                var r, n = i({}, e),
+                                    o = null;
+
+                                function c() {
+                                    if (["X-Country", "X-Ip_is_advertise_combined", "X-Ip_is_uk_combined"].every((function(t) {
+                                            return !!n[t]
+                                        }))) return Promise.resolve(n);
+                                    if (!o) {
+                                        var e = t.location.hostname.endsWith(".com") ? "com" : "co.uk";
+                                        o = t.fetch("https://www.bbc.".concat(e, "/userinfo")).then((function(t) {
+                                            return t.json()
+                                        }))
+                                    }
+                                    return o
+                                }
+
+                                function u(t) {
+                                    if (t.status >= 200 && t.status < 300) return t;
+                                    var e = new Error(t.statusText);
+                                    throw e.response = t, e
+                                }
+
+                                function a(t) {
+                                    return t.json()
+                                }
+
+                                function f() {
+                                    if (n.ageBand) return Promise.resolve(n);
+                                    if (!r) {
+                                        if ("undefined" == typeof XMLHttpRequest || !("withCredentials" in new XMLHttpRequest)) return Promise.resolve(n);
+                                        r = y(["idcta-v2/idcta-1"]).then((function(e) {
+                                            return e.initiateTokenRefresh().then((function() {
+                                                return t.fetch(t.orbitData.userProfileUrl, {
+                                                    credentials: "include"
+                                                }).then(u).then(a).then((function(t) {
+                                                    return n = i(i({}, n), t)
+                                                }))
+                                            }))
+                                        }))
+                                    }
+                                    return r
+                                }
+
+                                function s() {
+                                    var t = document.cookie.match(/(?:^|; ?)ckns_policy=(\d)(\d)(\d)($|;)/);
+                                    return t ? {
+                                        ads: !!+t[1],
+                                        personalisation: !!+t[2],
+                                        performance: !!+t[3],
+                                        necessary: !0
+                                    } : {
+                                        ads: !1,
+                                        personalisation: !1,
+                                        performance: !1,
+                                        necessary: !0
+                                    }
+                                }
+                                var l = {
+                                    getHashedId: function() {
+                                        return y(["idcta-v2/idcta-1"]).then((function(t) {
+                                            return t.getCookieInstance().getHidFromCookie()
+                                        }))
+                                    },
+                                    isSignedIn: function() {
+                                        return y(["idcta-v2/idcta-1"]).then((function(t) {
+                                            return t && t.getCookieInstance().hasCookie()
+                                        }))
+                                    },
+                                    getCountry: function() {
+                                        return c().then((function(t) {
+                                            return t["X-Country"] || "gb"
+                                        }))
+                                    },
+                                    isUKCombined: function() {
+                                        return c().then((function(t) {
+                                            if (!t["X-Ip_is_uk_combined"]) throw new v("missing isUKCombined from userinfo response");
+                                            return "yes" === t["X-Ip_is_uk_combined"].toLowerCase()
+                                        }))
+                                    },
+                                    canSeeAdverts: function() {
+                                        return c().then((function(t) {
+                                            if (!t["X-Ip_is_advertise_combined"]) throw new v("missing canSeeAdverts from userinfo response");
+                                            return "yes" === t["X-Ip_is_advertise_combined"].toLowerCase()
+                                        }))
+                                    },
+                                    getAgeBand: function() {
+                                        return c().then((function(t) {
+                                            return t["X-Age-Band"] ? Promise.resolve(t["X-Age-Band"]) : l.isSignedIn().then((function(t) {
+                                                if (t) return f().then((function(t) {
+                                                    return n["X-Age-Band"] = t["X-Age-Band"], n["X-Age-Band"] || void 0
+                                                })).catch((function() {
+                                                    return n["X-Age-Band"] || void 0
+                                                }))
+                                            }))
+                                        }))
+                                    },
+                                    allowsPerformanceCookies: function() {
+                                        return Promise.resolve(t.navigator.cookieEnabled && s().performance)
+                                    },
+                                    allowsFunctionalCookies: function() {
+                                        return Promise.resolve(t.navigator.cookieEnabled && s().personalisation)
+                                    },
+                                    getCookieValue: function(t) {
+                                        var e;
+                                        return t ? Promise.resolve((null === (e = document.cookie.match("(^|;)\\s*".concat(t, "\\s*=\\s*([^;]+)"))) || void 0 === e ? void 0 : e.pop()) || void 0) : Promise.resolve(document.cookie)
+                                    }
+                                };
+                                return l
+                            },
+                            BBCUserError: v
+                        }
+                    },
+                    890: function(t) {
+                        t.exports = {
+                            loadModule: function(t) {
+                                return new Promise((function(e, r) {
+                                    window.require(t, (function() {
+                                        e.apply(this, arguments)
+                                    }), (function(t) {
+                                        r(t)
+                                    }))
+                                }))
+                            }
+                        }
+                    },
+                    666: function(t) {
+                        var e = function(t) {
+                            "use strict";
+                            var e, r = Object.prototype,
+                                n = r.hasOwnProperty,
+                                o = "function" == typeof Symbol ? Symbol : {},
+                                i = o.iterator || "@@iterator",
+                                c = o.asyncIterator || "@@asyncIterator",
+                                u = o.toStringTag || "@@toStringTag";
+
+                            function a(t, e, r) {
+                                return Object.defineProperty(t, e, {
+                                    value: r,
+                                    enumerable: !0,
+                                    configurable: !0,
+                                    writable: !0
+                                }), t[e]
+                            }
+                            try {
+                                a({}, "")
+                            } catch (t) {
+                                a = function(t, e, r) {
+                                    return t[e] = r
+                                }
+                            }
+
+                            function f(t, e, r, n) {
+                                var o = e && e.prototype instanceof v ? e : v,
+                                    i = Object.create(o.prototype),
+                                    c = new k(n || []);
+                                return i._invoke = function(t, e, r) {
+                                    var n = l;
+                                    return function(o, i) {
+                                        if (n === h) throw new Error("Generator is already running");
+                                        if (n === d) {
+                                            if ("throw" === o) throw i;
+                                            return C()
+                                        }
+                                        for (r.method = o, r.arg = i;;) {
+                                            var c = r.delegate;
+                                            if (c) {
+                                                var u = _(c, r);
+                                                if (u) {
+                                                    if (u === y) continue;
+                                                    return u
+                                                }
+                                            }
+                                            if ("next" === r.method) r.sent = r._sent = r.arg;
+                                            else if ("throw" === r.method) {
+                                                if (n === l) throw n = d, r.arg;
+                                                r.dispatchException(r.arg)
+                                            } else "return" === r.method && r.abrupt("return", r.arg);
+                                            n = h;
+                                            var a = s(t, e, r);
+                                            if ("normal" === a.type) {
+                                                if (n = r.done ? d : p, a.arg === y) continue;
+                                                return {
+                                                    value: a.arg,
+                                                    done: r.done
+                                                }
+                                            }
+                                            "throw" === a.type && (n = d, r.method = "throw", r.arg = a.arg)
+                                        }
+                                    }
+                                }(t, r, c), i
+                            }
+
+                            function s(t, e, r) {
+                                try {
+                                    return {
+                                        type: "normal",
+                                        arg: t.call(e, r)
+                                    }
+                                } catch (t) {
+                                    return {
+                                        type: "throw",
+                                        arg: t
+                                    }
+                                }
+                            }
+                            t.wrap = f;
+                            var l = "suspendedStart",
+                                p = "suspendedYield",
+                                h = "executing",
+                                d = "completed",
+                                y = {};
+
+                            function v() {}
+
+                            function g() {}
+
+                            function b() {}
+                            var m = {};
+                            a(m, i, (function() {
+                                return this
+                            }));
+                            var w = Object.getPrototypeOf,
+                                O = w && w(w(S([])));
+                            O && O !== r && n.call(O, i) && (m = O);
+                            var P = b.prototype = v.prototype = Object.create(m);
+
+                            function j(t) {
+                                ["next", "throw", "return"].forEach((function(e) {
+                                    a(t, e, (function(t) {
+                                        return this._invoke(e, t)
+                                    }))
+                                }))
+                            }
+
+                            function E(t, e) {
+                                function r(o, i, c, u) {
+                                    var a = s(t[o], t, i);
+                                    if ("throw" !== a.type) {
+                                        var f = a.arg,
+                                            l = f.value;
+                                        return l && "object" == typeof l && n.call(l, "__await") ? e.resolve(l.__await).then((function(t) {
+                                            r("next", t, c, u)
+                                        }), (function(t) {
+                                            r("throw", t, c, u)
+                                        })) : e.resolve(l).then((function(t) {
+                                            f.value = t, c(f)
+                                        }), (function(t) {
+                                            return r("throw", t, c, u)
+                                        }))
+                                    }
+                                    u(a.arg)
+                                }
+                                var o;
+                                this._invoke = function(t, n) {
+                                    function i() {
+                                        return new e((function(e, o) {
+                                            r(t, n, e, o)
+                                        }))
+                                    }
+                                    return o = o ? o.then(i, i) : i()
+                                }
+                            }
+
+                            function _(t, r) {
+                                var n = t.iterator[r.method];
+                                if (n === e) {
+                                    if (r.delegate = null, "throw" === r.method) {
+                                        if (t.iterator.return && (r.method = "return", r.arg = e, _(t, r), "throw" === r.method)) return y;
+                                        r.method = "throw", r.arg = new TypeError("The iterator does not provide a 'throw' method")
+                                    }
+                                    return y
+                                }
+                                var o = s(n, t.iterator, r.arg);
+                                if ("throw" === o.type) return r.method = "throw", r.arg = o.arg, r.delegate = null, y;
+                                var i = o.arg;
+                                return i ? i.done ? (r[t.resultName] = i.value, r.next = t.nextLoc, "return" !== r.method && (r.method = "next", r.arg = e), r.delegate = null, y) : i : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y)
+                            }
+
+                            function x(t) {
+                                var e = {
+                                    tryLoc: t[0]
+                                };
+                                1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e)
+                            }
+
+                            function L(t) {
+                                var e = t.completion || {};
+                                e.type = "normal", delete e.arg, t.completion = e
+                            }
+
+                            function k(t) {
+                                this.tryEntries = [{
+                                    tryLoc: "root"
+                                }], t.forEach(x, this), this.reset(!0)
+                            }
+
+                            function S(t) {
+                                if (t) {
+                                    var r = t[i];
+                                    if (r) return r.call(t);
+                                    if ("function" == typeof t.next) return t;
+                                    if (!isNaN(t.length)) {
+                                        var o = -1,
+                                            c = function r() {
+                                                for (; ++o < t.length;)
+                                                    if (n.call(t, o)) return r.value = t[o], r.done = !1, r;
+                                                return r.value = e, r.done = !0, r
+                                            };
+                                        return c.next = c
+                                    }
+                                }
+                                return {
+                                    next: C
+                                }
+                            }
+
+                            function C() {
+                                return {
+                                    value: e,
+                                    done: !0
+                                }
+                            }
+                            return g.prototype = b, a(P, "constructor", b), a(b, "constructor", g), g.displayName = a(b, u, "GeneratorFunction"), t.isGeneratorFunction = function(t) {
+                                var e = "function" == typeof t && t.constructor;
+                                return !!e && (e === g || "GeneratorFunction" === (e.displayName || e.name))
+                            }, t.mark = function(t) {
+                                return Object.setPrototypeOf ? Object.setPrototypeOf(t, b) : (t.__proto__ = b, a(t, u, "GeneratorFunction")), t.prototype = Object.create(P), t
+                            }, t.awrap = function(t) {
+                                return {
+                                    __await: t
+                                }
+                            }, j(E.prototype), a(E.prototype, c, (function() {
+                                return this
+                            })), t.AsyncIterator = E, t.async = function(e, r, n, o, i) {
+                                void 0 === i && (i = Promise);
+                                var c = new E(f(e, r, n, o), i);
+                                return t.isGeneratorFunction(r) ? c : c.next().then((function(t) {
+                                    return t.done ? t.value : c.next()
+                                }))
+                            }, j(P), a(P, u, "Generator"), a(P, i, (function() {
+                                return this
+                            })), a(P, "toString", (function() {
+                                return "[object Generator]"
+                            })), t.keys = function(t) {
+                                var e = [];
+                                for (var r in t) e.push(r);
+                                return e.reverse(),
+                                    function r() {
+                                        for (; e.length;) {
+                                            var n = e.pop();
+                                            if (n in t) return r.value = n, r.done = !1, r
+                                        }
+                                        return r.done = !0, r
+                                    }
+                            }, t.values = S, k.prototype = {
+                                constructor: k,
+                                reset: function(t) {
+                                    if (this.prev = 0, this.next = 0, this.sent = this._sent = e, this.done = !1, this.delegate = null, this.method = "next", this.arg = e, this.tryEntries.forEach(L), !t)
+                                        for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = e)
+                                },
+                                stop: function() {
+                                    this.done = !0;
+                                    var t = this.tryEntries[0].completion;
+                                    if ("throw" === t.type) throw t.arg;
+                                    return this.rval
+                                },
+                                dispatchException: function(t) {
+                                    if (this.done) throw t;
+                                    var r = this;
+
+                                    function o(n, o) {
+                                        return u.type = "throw", u.arg = t, r.next = n, o && (r.method = "next", r.arg = e), !!o
+                                    }
+                                    for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+                                        var c = this.tryEntries[i],
+                                            u = c.completion;
+                                        if ("root" === c.tryLoc) return o("end");
+                                        if (c.tryLoc <= this.prev) {
+                                            var a = n.call(c, "catchLoc"),
+                                                f = n.call(c, "finallyLoc");
+                                            if (a && f) {
+                                                if (this.prev < c.catchLoc) return o(c.catchLoc, !0);
+                                                if (this.prev < c.finallyLoc) return o(c.finallyLoc)
+                                            } else if (a) {
+                                                if (this.prev < c.catchLoc) return o(c.catchLoc, !0)
+                                            } else {
+                                                if (!f) throw new Error("try statement without catch or finally");
+                                                if (this.prev < c.finallyLoc) return o(c.finallyLoc)
+                                            }
+                                        }
+                                    }
+                                },
+                                abrupt: function(t, e) {
+                                    for (var r = this.tryEntries.length - 1; r >= 0; --r) {
+                                        var o = this.tryEntries[r];
+                                        if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) {
+                                            var i = o;
+                                            break
+                                        }
+                                    }
+                                    i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null);
+                                    var c = i ? i.completion : {};
+                                    return c.type = t, c.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(c)
+                                },
+                                complete: function(t, e) {
+                                    if ("throw" === t.type) throw t.arg;
+                                    return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y
+                                },
+                                finish: function(t) {
+                                    for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                                        var r = this.tryEntries[e];
+                                        if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), L(r), y
+                                    }
+                                },
+                                catch: function(t) {
+                                    for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                                        var r = this.tryEntries[e];
+                                        if (r.tryLoc === t) {
+                                            var n = r.completion;
+                                            if ("throw" === n.type) {
+                                                var o = n.arg;
+                                                L(r)
+                                            }
+                                            return o
+                                        }
+                                    }
+                                    throw new Error("illegal catch attempt")
+                                },
+                                delegateYield: function(t, r, n) {
+                                    return this.delegate = {
+                                        iterator: S(t),
+                                        resultName: r,
+                                        nextLoc: n
+                                    }, "next" === this.method && (this.arg = e), y
+                                }
+                            }, t
+                        }(t.exports);
+                        try {
+                            regeneratorRuntime = e
+                        } catch (t) {
+                            "object" == typeof globalThis ? globalThis.regeneratorRuntime = e : Function("r", "regeneratorRuntime = r")(e)
+                        }
+                    }
+                },
+                e = {};
+
+            function r(n) {
+                var o = e[n];
+                if (void 0 !== o) return o.exports;
+                var i = e[n] = {
+                    exports: {}
+                };
+                return t[n](i, i.exports, r), i.exports
+            }
+            r(666);
+            r(930)
+        }();
+    </script>
+
+    <script type="module">
+        window.importmap = {
+            "orbit-drawer": "https://static.files.bbci.co.uk/orbit/644077edc7f09faed9dd44fb4c1fae48/js/drawer.mjs",
+            "bbccookies": "https://static.files.bbci.co.uk/cookies/d3bb303e79f041fec95388e04f84e716/cookie-banner/cookie-library.module.js"
+        };
+        var o = {
+                738: function(o) {
+                    o.exports = {
+                        loadModule: function(o) {
+                            return new Promise(((n, t) => {
+                                window.require(o, (function() {
+                                    n.apply(this, arguments)
+                                }), (o => {
+                                    t(o)
+                                }))
+                            }))
+                        }
+                    }
+                },
+                61: function(o, n, t) {
+                    const {
+                        loadModule: r
+                    } = t(738);
+                    o.exports = function(o) {
+                        return function(n) {
+                            return "string" == typeof n && o[n] ? import(o[n]) : r(n)
+                        }
+                    }
+                }
+            },
+            n = {};
+
+        function t(r) {
+            var i = n[r];
+            if (void 0 !== i) return i.exports;
+            var e = n[r] = {
+                exports: {}
+            };
+            return o[r](e, e.exports, t), e.exports
+        }! function() {
+            const o = t(61);
+            window.shimport = o({
+                ...window.importmap
+            }), window.importMap = void 0
+        }();
+    </script>
+
+    <script type="text/javascript">
+        window.page = undefined;
+        window.user = undefined;
+    </script>
+
+    <link rel="preload" href="https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Bd.woff2" as="font" type="font/woff2" crossorigin="">
+
+
+    <!-- searchbox Web Module: 3.1.0-606.ecf693f -->
+
+
+    <!-- navpromo Web Module: 3.0.1-51.ec476ab -->
+
+
+    <!-- cookies Web Module: 0.0.4-99.b372a0f -->
+
+
+    <!-- useractivityhelper Web Module: 1.0.0-293.bd5178e -->
+
+
+    <!-- reverb Web Module: 3.6.1 -->
+
+
+    <!-- ukomtracking Web Module: 1.1.0 -->
+
+
+    <!-- idcta Web Module:  -->
+
+
+    <!-- notifications Web Module: 5.0.19 -->
+
+
+
+    <link rel="stylesheet" href="./Projects - BBC R&amp;D_files/box.css">
+
+
+
+
+
+
+    <script src="./Projects - BBC R&amp;D_files/cookie-library.bundle.js.download"></script>
+    <script type="text/javascript">
+        void 0 !== window.define && define("orb/cookies", function() {
+            return window.bbccookies
+        })
+    </script>
+
+
+    <script type="text/javascript">
+        window.__detectview = {
+            clickManagementEnabled: false
+        };
+    </script>
+
+
+    <script type="text/javascript">
+        "use strict";
+        ! function() {
+            window.__reverbStaticLocation = "https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/", window.__smarttagVersion = "5.29.4", window.__reverb = {}, window.__reverb.__reverbLoadedPromise = new Promise(function(e, i) {
+                window.__reverb.__resolveReverbLoaded = e, window.__reverb.__rejectReverbLoaded = i
+            }), window.__reverb.__reverbTimeout = setTimeout(function() {
+                window.__reverb.__rejectReverbLoaded()
+            }, 5e3);
+            var i = function(d, a) {
+                    window.__reverb.__reverbLoadedPromise.then(function(e) {
+                        if (d && d.detail) {
+                            var i = !!d.detail.item,
+                                n = d.detail.label,
+                                t = i ? "viewability" : d.detail.type,
+                                o = d.detail.elem,
+                                r = d.detail.originalEvent;
+                            d.detail.isClick && (a = d.detail.isClick), e.userActionEvent(t, n, d.detail, o, r, a)
+                        }
+                    }, function() {
+                        console.log("Reverb failed to load. Event not sent")
+                    })
+                },
+                n = function() {
+                    window.__reverb.__reverbLoadedPromise.then(function(e) {
+                        e.initialise().then(function() {
+                            return e.viewEvent()
+                        })
+                    }, function() {
+                        console.log("Reverb failed to load. Event not sent")
+                    })
+                };
+            document.addEventListener("bbc-user-event", function(e) {
+                i(e, !1)
+            }), document.addEventListener("bbc-user-click", function(e) {
+                i(e, !0)
+            }), document.addEventListener("bbc-page-updated", n), window.addEventListener("pageshow", function(e) {
+                e.persisted && n()
+            })
+        }();
+    </script>
+    <script type="text/javascript" src="./Projects - BBC R&amp;D_files/reverb-3.6.1.js.download" async=""></script>
+
+
+    <script type="text/javascript">
+        "use strict";
+
+        function asyncGeneratorStep(e, t, n, r, o, a, i) {
+            try {
+                var s = e[a](i),
+                    c = s.value
+            } catch (e) {
+                return void n(e)
+            }
+            s.done ? t(c) : Promise.resolve(c).then(r, o)
+        }
+
+        function _asyncToGenerator(s) {
+            return function() {
+                var e = this,
+                    i = arguments;
+                return new Promise(function(t, n) {
+                    var r = s.apply(e, i);
+
+                    function o(e) {
+                        asyncGeneratorStep(r, t, n, o, a, "next", e)
+                    }
+
+                    function a(e) {
+                        asyncGeneratorStep(r, t, n, o, a, "throw", e)
+                    }
+                    o(void 0)
+                })
+            }
+        }
+        var wrapMethod = function(e, t) {
+                return e[t] && "function" == typeof e[t] ? e[t]() : Promise.resolve(null)
+            },
+            getPageVariables = function() {
+                return window && window.bbcpage ? Promise.all(["getDestination", "getSection", "getProducer"].map(function(e) {
+                    return wrapMethod(window.bbcpage, e)
+                })).then(function(e) {
+                    var t = JSON.parse(JSON.stringify(e));
+                    return {
+                        destination: t[0],
+                        section: t[1],
+                        producer: t[2]
+                    }
+                }) : Promise.resolve(void 0)
+            },
+            getUserVariables = function() {
+                return window && window.bbcuser ? Promise.all(["isSignedIn", "getHashedId"].map(function(e) {
+                    return wrapMethod(window.bbcuser, e)
+                })).then(function(e) {
+                    var t = JSON.parse(JSON.stringify(e));
+                    return {
+                        isSignedIn: t[0],
+                        hashedId: t[1]
+                    }
+                }) : Promise.resolve(void 0)
+            },
+            dotMetricsTag = function(e, t) {
+                var n = document.createElement("script");
+                return n.src = "https://uk-script.dotmetrics.net/door.js?d=".concat(t, "&t=").concat(e), n.async = !0, n.id = "dotmetrics", document.body.appendChild(n),
+                    function() {
+                        document.body.removeChild(n)
+                    }
+            },
+            isAccountPage = function(e, t) {
+                return !!e.includes("account.bbc") || !!t && ("account" === t.toLowerCase() || "account_test" === t.toLowerCase())
+            },
+            parseSiteSectionName = function(e) {
+                var t = e.destination,
+                    n = e.section,
+                    r = e.producer,
+                    o = document ? document.location.host.replace(/:.*/, "") : "bbc.no.host";
+                if (t) {
+                    var a = "";
+                    n && ["NEWS_PS", "NEWS_PS_TEST", "SOUNDS", "SOUNDS_TEST", "SPORT_PS", "SPORT_PS_TEST", "IPLAYER", "IPLAYER_TEST"].includes(t.toUpperCase()) && (a = n.split("::")[0]);
+                    return r && ["FEATURE_SITES_GNL", "FEATURE_SITES_GNL_TEST"].includes(t.toUpperCase()) && (t = r), {
+                        siteSectionNameString: "".concat(t).concat(a).toLowerCase().replace(/_/g, ""),
+                        host: o
+                    }
+                }
+                return {
+                    siteSectionNameString: "other",
+                    host: o
+                }
+            };
+
+        function startUkom() {
+            return _startUkom.apply(this, arguments)
+        }
+
+        function _startUkom() {
+            return (_startUkom = _asyncToGenerator(regeneratorRuntime.mark(function e() {
+                var t, n, r;
+                return regeneratorRuntime.wrap(function(e) {
+                    for (;;) switch (e.prev = e.next) {
+                        case 0:
+                            return e.next = 2, getUserVariables();
+                        case 2:
+                            if ((t = e.sent) && t.isSignedIn && null == t.hashedId) return e.abrupt("return");
+                            e.next = 5;
+                            break;
+                        case 5:
+                            return e.next = 7, getPageVariables();
+                        case 7:
+                            if (n = e.sent, isAccountPage(document.location.host, n.destination)) return e.abrupt("return");
+                            e.next = 10;
+                            break;
+                        case 10:
+                            r = parseSiteSectionName(n), dotMetricsTag(r.siteSectionNameString, r.host);
+                        case 12:
+                        case "end":
+                            return e.stop()
+                    }
+                }, e)
+            }))).apply(this, arguments)
+        }
+        document.addEventListener("bbc-page-updated", function() {
+            startUkom()
+        }), window.addEventListener("pageshow", function(e) {
+            e.persisted && startUkom()
+        }), document.addEventListener("DOMContentLoaded", function() {
+            startUkom()
+        });
+    </script>
+
+
+    <link rel="stylesheet" href="./Projects - BBC R&amp;D_files/id-cta.css">
+    <script type="text/javascript">
+        (function() {
+            if (!window.require) {
+                throw new Error('idcta: could not find require module');
+            }
+            if (typeof(map) == 'undefined') {
+                var map = {};
+            }
+            if (!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect) {
+                document.documentElement.className += ' id-svg';
+            }
+            var ptrt = new RegExp("[\\?&]ptrt=([^&]*)").exec(document.location.href);
+            var ENDPOINT_URL = 'https://idcta.api.bbc.co.uk';
+            var ENDPOINT_CONFIG = ('/idcta/config?callback=&ptrt=' + (ptrt ? ptrt[1] : encodeURIComponent(document.location.href))).replace(/\&amp;/g, '&');
+            var ENDPOINT_TRANSLATIONS = '/idcta/translations?callback=';
+
+            function hasPromise() {
+                var P = window.Promise;
+                var promiseToString = null;
+                if (P) {
+                    try {
+                        promiseToString = Object.prototype.toString.call(P.resolve());
+                    } catch (e) {
+                        /*silently ignored*/
+                    }
+                }
+                return (promiseToString === '[object Promise]' && !P.cast);
+            }
+            if (hasPromise()) {
+                define('idcta/es6-promise', function() {
+                    return window.Promise;
+                });
+                define('idcta-v2/es6-promise', function() {
+                    return window.Promise;
+                });
+            }
+            map['idcta-v2'] = 'https://static.files.bbci.co.uk/account/id-cta/594/modules/idcta-v2';
+            map['idcta-v2/config'] = ENDPOINT_URL + ENDPOINT_CONFIG;
+            map['idcta-v2/translations'] = ENDPOINT_URL + ENDPOINT_TRANSLATIONS;
+            map['idcta'] = 'https://static.files.bbci.co.uk/account/id-cta/1.8.2/modules/idcta';
+            map['idcta-v2/idcta-1'] = 'https://static.files.bbci.co.uk/account/id-cta/594/modules/idcta-v2/dist/idcta-1.min';
+            map['idcta-v2/experiment-snippet'] = 'https://cdn.optimizely.com/public/4621041136/s/idcta_live';
+            const idctaShim = {
+                deps: ['idcta-v2/idcta-1'],
+            };
+            require({
+                shim: {
+                    'idcta-v2/statusbar': idctaShim,
+                    'idcta-v2/id-config': idctaShim
+                },
+                map: {
+                    '*': {
+                        'idcta/idcta-1': 'idcta-v2/idcta-1',
+                        'idcta': 'idcta-v2',
+                    }
+                },
+                paths: map
+            });
+            window.idctaBaseUrl = ENDPOINT_URL;
+            define('idcta/config', ['idcta-v2/config'], function(data) {
+                return data;
+            });
+            define('idcta/translations', ['idcta-v2/translations'], function(data) {
+                return data;
+            });
+        })();
+    </script>
+
+
+
+
+
+
+    <link href="./Projects - BBC R&amp;D_files/application-929fd3bf0b7ef6fad38b41ac955a8015.css" rel="stylesheet" type="text/css">
+
+    <link href="./Projects - BBC R&amp;D_files/hotfixes.css" media="screen" rel="stylesheet" type="text/css">
+
+    <script>
+        bbcRequireMap = {
+            "jquery-1.9": "//static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1",
+            "swfobject-2": "//static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2",
+            "bump-3": "//emp.bbci.co.uk/emp/bump-3/bump-3"
+        }
+        require.config({
+            "baseUrl": "http://static.bbci.co.uk/",
+            "paths": bbcRequireMap,
+            "waitSeconds": 30
+        });
+        require(['jquery-1.9']);
+    </script>
+    <script src="./Projects - BBC R&amp;D_files/breakpoints-eeba188fd2a6dec1850846905c27ee39.js.download"></script>
+
+    <meta property="fb:pages" content="456412834516846">
+
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-1.9" src="./Projects - BBC R&amp;D_files/jquery-1.9.1.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/idcta-1" src="./Projects - BBC R&amp;D_files/idcta-1.min.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="swfobject-2" src="./Projects - BBC R&amp;D_files/swfobject-2.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bump-3" src="./Projects - BBC R&amp;D_files/bump-3.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/config" src="./Projects - BBC R&amp;D_files/config"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/statusbar" src="./Projects - BBC R&amp;D_files/statusbar.js.download"></script>
+</head>
+
+<body class="standard-page page-projects" cz-shortcut-listen="true">
+    <noscript>
+        <p style="position: absolute; top: -999em"><img src="https://a1.api.bbc.co.uk/hit.xiti?&col=1&from=p&ptag=js&s=598253&p=corporate.rd.projects.page&x2=[responsive]&x3=[bbc_website]&x4=[en]&x8=[reverb-3.6.1-nojs]&x11=[BBC_CORPORATE_PS]&x12=[RD]" height="1" width="1" alt=""></p>
+    </noscript>
+    <div class="orbit-header-container" id="orbit-header">
+        <header id="orb-banner" role="banner" aria-label="BBC-wide" class="orbit-header geo orbit-default orbit-language-en orbit-ux-v5 orbit-domestic-no">
+            <div id="orb-header" class="orb-nav-pri orb-nav-pri-white orb-nav-empty" dir="ltr">
+                <div class="orb-nav-pri-container b-r b-g-p">
+                    <div class="orb-nav-section orb-nav-blocks"><a href="https://www.bbc.com/" id="homepage-link"><svg width="112" height="32" viewBox="0 0 112 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99999 6.99999H15.7552C17.7458 6.99999 19.2878 7.39887 20.3811 8.19576C21.4741 8.99309 22.021 10.1385 22.021 11.6321C22.021 12.4881 21.8252 13.2308 21.4335 13.8601C21.0419 14.4894 20.4625 14.9891 19.6958 15.358C20.7563 15.7104 21.5682 16.2686 22.1311 17.0321C22.6941 17.796 22.9755 18.7232 22.9755 19.814C22.9755 20.8882 22.7021 21.8114 22.1555 22.5832C21.6087 23.3553 20.8296 23.9513 19.8182 24.3706C18.8062 24.7903 17.5909 25 16.1713 25H8.99999V6.99999ZM0 32H32V0H0V32ZM48.9999 6.99999H55.7551C57.7457 6.99999 59.2877 7.39887 60.3811 8.19576C61.4741 8.99309 62.0209 10.1385 62.0209 11.6321C62.0209 12.4881 61.8251 13.2308 61.4334 13.8601C61.0419 14.4894 60.4624 14.9891 59.6957 15.358C60.7562 15.7104 61.568 16.2686 62.1311 17.0321C62.694 17.796 62.9753 18.7232 62.9753 19.814C62.9753 20.8882 62.7019 21.8114 62.1554 22.5832C61.6087 23.3553 60.8297 23.9513 59.818 24.3706C58.8062 24.7903 57.5908 25 56.1712 25H48.9999V6.99999ZM39.9999 32H71.9999V0H39.9999V32ZM55.8775 17.2209H52.6469V22.0797H55.8286C56.9216 22.0797 57.7622 21.8743 58.3497 21.4629C58.9369 21.0518 59.2308 20.4602 59.2308 19.6881C59.2308 18.0435 58.1128 17.2209 55.8775 17.2209ZM55.4125 9.92026C57.3541 9.92026 58.3252 10.6338 58.3252 12.06C58.3252 12.7988 58.0763 13.3735 57.5787 13.7846C57.0808 14.196 56.3588 14.4014 55.4125 14.4014H52.6469V9.92026H55.4125ZM15.4126 9.92026C17.3542 9.92026 18.3253 10.6338 18.3253 12.06C18.3253 12.7988 18.0763 13.3735 17.5787 13.7846C17.0808 14.196 16.3588 14.4014 15.4126 14.4014H12.6469V9.92026H15.4126ZM15.8776 17.2209H12.6469V22.0797H15.8287C16.9217 22.0797 17.7623 21.8743 18.3497 21.4629C18.937 21.0518 19.2308 20.4602 19.2308 19.6881C19.2308 18.0435 18.1129 17.2209 15.8776 17.2209ZM100.391 24.8338C101.373 24.5956 102.237 24.2706 102.982 23.8592V20.4292C101.407 21.4001 99.6879 21.8851 97.8249 21.8851C96.6052 21.8851 95.5677 21.6549 94.7125 21.1942C93.857 20.7338 93.2048 20.0633 92.7562 19.1831C92.3071 18.3032 92.0829 17.238 92.0829 15.9876C92.0829 14.7377 92.3155 13.6766 92.7814 12.8045C93.2472 11.9327 93.9161 11.2665 94.7887 10.8058C95.6608 10.3454 96.7153 10.1148 97.9519 10.1148C98.8494 10.1148 99.705 10.2343 100.518 10.4726C101.331 10.7113 102.084 11.0609 102.779 11.5212V8.01737C102.017 7.62259 101.191 7.32259 100.302 7.1167C99.4128 6.91126 98.4683 6.80826 97.4691 6.80826C96.0292 6.80826 94.7292 7.02226 93.5691 7.44981C92.4088 7.87781 91.4136 8.4947 90.5839 9.30048C89.7537 10.1067 89.1187 11.0732 88.6783 12.1999C88.2377 13.3269 88.0176 14.5896 88.0176 15.9876C88.0176 17.4188 88.2295 18.7062 88.6529 19.8493C89.0761 20.9929 89.6859 21.9591 90.4822 22.7488C91.2782 23.5383 92.252 24.143 93.404 24.5624C94.5557 24.9819 95.8515 25.1917 97.2912 25.1917C98.375 25.1917 99.4085 25.0721 100.391 24.8338ZM112 32H79.9998V4.44444e-05H112V32Z"></path>
+                            </svg><span class="orbit-button-text">Homepage</span></a></div>
+                    <section>
+                        <div class="orb-skip-links">
+                            <h2 class="b-font-family-serif">Accessibility links</h2>
+                            <ul>
+                                <li><a href="https://www.bbc.co.uk/rd/projects#orb-modules"><span>Skip to content</span></a></li>
+                                <li><a id="orb-accessibility-help" href="https://www.bbc.co.uk/accessibility/"><span>Accessibility Help</span></a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <div class="orbit-header-left">
+                        <div class="orbit-module-idcta">
+                            <div id="idcta-statusbar" class="orbit-header-account" data-bbc-container="id-cta" data-bbc-event-type="click" data-bbc-ignore-views="1" data-bbc-metadata="{&quot;id-cta-type&quot;: &quot;statusbar-orbit&quot;}" data-bbc-source="responsive_web" data-bbc-title="id-cta-sign-in"><a id="idcta-link" href="https://session.bbc.co.uk/session?ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Frd%2Fprojects&amp;context=bbc_corporate&amp;userOrigin=BBC_CORPORATE_PS"><span id="idcta-username">Sign in</span></a></div>
+                            <script type="text/javascript">
+                                require(['idcta/statusbar'], function(statusbar) {
+                                    new statusbar.Statusbar({
+                                        id: 'idcta-statusbar',
+                                        publiclyCacheable: true
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="orbit-module-notifications">
+                            <div class="orbit-module-notifications"><a class="orbit-header-notifications" href="https://www.bbc.co.uk/notifications"><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.35 15.1883C19.8562 15.7235 20.6674 16.0612 21.7837 16.1996L23 16.3481V18.6667H0V16.3481L1.21634 16.1996C2.35241 16.0612 3.16834 15.7235 3.66602 15.1883C4.16276 14.6532 4.41113 13.8413 4.41113 12.7517V9.71992C4.41113 7.97614 4.87764 6.53868 5.81068 5.40938C6.74371 4.28008 8.06204 3.54752 9.76567 3.20983V0H13.2343V3.20983C14.938 3.54752 16.2553 4.28008 17.1893 5.40938C18.1224 6.53868 18.5889 7.97614 18.5889 9.71992V12.7517C18.5889 13.8413 18.8429 14.6532 19.35 15.1883ZM11.4996 24C10.4854 24 9.66944 23.6713 9.05088 23.0122C8.43232 22.353 8.12351 21.5721 8.12351 20.6667H14.8767C14.8767 21.5721 14.5669 22.353 13.9493 23.0122C13.3307 23.6713 12.5139 24 11.4996 24Z"></path>
+                                    </svg><span class="orbit-button-text">Notifications</span></a></div>
+                        </div>
+                    </div>
+                    <nav class="orbit-header-links domestic">
+                        <ul>
+                            <li class="orb-nav-home"><a href="https://www.bbc.co.uk/"><span>Home</span></a></li>
+                            <li class="orb-nav-news"><a href="https://www.bbc.co.uk/news"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#B80000" d="M302,424h-68c-0.552,0-1.052-0.224-1.414-0.586S232,422.552,232,422V306c0-0.552,0.224-1.052,0.586-1.414
+                S233.448,304,234,304h68c0.552,0,1.052,0.224,1.414,0.586S304,305.448,304,306v116c0,0.552-0.224,1.052-0.586,1.414
+                S302.552,424,302,424z"></path>
+                                            <path fill="#EB0000" d="M422,280H234c-0.552,0-1.052-0.224-1.414-0.586S232,278.552,232,278V90c0-0.552,0.224-1.052,0.586-1.414
+                S233.448,88,234,88h188c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v188c0,0.552-0.224,1.052-0.586,1.414
+                S422.552,280,422,280z"></path>
+                                            <path fill="#D30000" d="M206,328H90c-0.552,0-1.052-0.224-1.414-0.586S88,326.552,88,326V210c0-0.552,0.224-1.052,0.586-1.414
+                S89.448,208,90,208h116c0.552,0,1.052,0.224,1.414,0.586S208,209.448,208,210v116c0,0.552-0.224,1.052-0.586,1.414
+                S206.552,328,206,328z"></path>
+                                        </g>
+                                    </svg><span>News</span></a></li>
+                            <li class="orb-nav-sport"><a href="https://www.bbc.co.uk/sport"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#FFD230" d="M90,184h332c0.552,0,1.052-0.224,1.414-0.586S424,182.552,424,182V90c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,88,422,88H90c-0.552,0-1.052,0.224-1.414,0.586S88,89.448,88,90v92c0,0.552,0.224,1.052,0.586,1.414S89.448,184,90,184z"></path>
+                                            <path fill="#FFA100" d="M306,424h116c0.552,0,1.052-0.224,1.414-0.586S424,422.552,424,422v-92c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,328,422,328H306c-0.552,0-1.052,0.224-1.414,0.586S304,329.448,304,330v92c0,0.552,0.224,1.052,0.586,1.414
+                S305.448,424,306,424z"></path>
+                                            <path fill="#FFBA00" d="M210,304h212c0.552,0,1.052-0.224,1.414-0.586S424,302.552,424,302v-92c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,208,422,208H210c-0.552,0-1.052,0.224-1.414,0.586S208,209.448,208,210v92c0,0.552,0.224,1.052,0.586,1.414
+                S209.448,304,210,304z"></path>
+                                        </g>
+                                    </svg><span>Sport</span></a></li>
+                            <li class="orb-nav-weather"><a href="https://www.bbc.co.uk/weather"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#067EB3" d="M316.234,368.56l52.326-52.326c0.391-0.391,0.586-0.902,0.586-1.414c0-0.512-0.195-1.024-0.586-1.414
+                L252.594,197.44c-0.391-0.391-0.902-0.586-1.414-0.586s-1.024,0.195-1.414,0.586l-52.326,52.326
+                c-0.391,0.391-0.586,0.902-0.586,1.414s0.195,1.024,0.586,1.414L313.406,368.56c0.391,0.391,0.902,0.586,1.414,0.586
+                C315.332,369.146,315.844,368.95,316.234,368.56z"></path>
+                                            <path fill="#1969A6" d="M90,424h74c0.552,0,1.052-0.224,1.414-0.586S166,422.552,166,422V258c0-0.552-0.224-1.052-0.586-1.414
+                S164.552,256,164,256H90c-0.552,0-1.052,0.224-1.414,0.586S88,257.448,88,258v164c0,0.552,0.224,1.052,0.586,1.414
+                S89.448,424,90,424z"></path>
+                                            <path fill="#149EDC" d="M258,166h164c0.552,0,1.052-0.224,1.414-0.586S424,164.552,424,164V90c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,88,422,88H258c-0.552,0-1.052,0.224-1.414,0.586S256,89.448,256,90v74c0,0.552,0.224,1.052,0.586,1.414
+                S257.448,166,258,166z"></path>
+                                        </g>
+                                    </svg><span>Weather</span></a></li>
+                            <li class="orb-nav-iplayer"><a href="https://www.bbc.co.uk/iplayer"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#DC2878" d="M182,358h-68c-0.55,0-1.05-0.225-1.412-0.587C112.225,357.05,112,356.55,112,356V156
+                c0-0.552,0.224-1.052,0.586-1.414S113.448,154,114,154h68c0.55,0,1.05,0.225,1.413,0.587C183.775,154.95,184,155.45,184,156v200
+                c0,0.552-0.224,1.052-0.586,1.414S182.552,358,182,358z"></path>
+                                            <path fill="#FF4C98" d="M372.106,248.243l34-58.89c0.275-0.476,0.33-1.022,0.197-1.517c-0.133-0.495-0.453-0.94-0.93-1.215
+                l-173.205-100c-0.478-0.276-1.023-0.332-1.518-0.2c-0.494,0.132-0.938,0.454-1.214,0.932l-34,58.89
+                c-0.275,0.476-0.33,1.022-0.197,1.517c0.133,0.495,0.453,0.94,0.93,1.215l173.205,100c0.478,0.276,1.023,0.332,1.518,0.2
+                C371.386,249.042,371.83,248.721,372.106,248.243z"></path>
+                                            <path fill="#AF0D5B" d="M372.106,263.757l34,58.89c0.275,0.476,0.33,1.022,0.197,1.517c-0.133,0.495-0.453,0.94-0.93,1.215
+                l-173.205,100c-0.478,0.276-1.023,0.332-1.518,0.2c-0.494-0.132-0.938-0.454-1.214-0.932l-34-58.89
+                c-0.275-0.476-0.33-1.022-0.197-1.517c0.133-0.495,0.453-0.94,0.93-1.215l173.205-100c0.478-0.276,1.023-0.332,1.518-0.2
+                C371.386,262.958,371.83,263.279,372.106,263.757z"></path>
+                                        </g>
+                                    </svg><span>iPlayer</span></a></li>
+                            <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#A13104" d="M122,304H78c-0.552,0-1.052-0.224-1.414-0.586S76,302.552,76,302v-92c0-0.552,0.224-1.052,0.586-1.414
+                S77.448,208,78,208h44c0.552,0,1.052,0.224,1.414,0.586S124,209.448,124,210v92c0,0.552-0.224,1.052-0.586,1.414
+                S122.552,304,122,304z"></path>
+                                            <path fill="#D24712" d="M230,376h-80c-0.552,0-1.052-0.224-1.414-0.586S148,374.552,148,374V138c0-0.552,0.224-1.052,0.586-1.414
+                S149.448,136,150,136h80c0.552,0,1.052,0.224,1.414,0.586S232,137.448,232,138v236c0,0.552-0.224,1.052-0.586,1.414
+                S230.552,376,230,376z"></path>
+                                            <path fill="#FA6400" d="M422,424H258c-0.552,0-1.052-0.224-1.414-0.586S256,422.552,256,422V90c0-0.552,0.224-1.052,0.586-1.414
+                S257.448,88,258,88h164c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v332c0,0.552-0.224,1.052-0.586,1.414
+                S422.552,424,422,424z"></path>
+                                        </g>
+                                    </svg><span>Sounds</span></a></li>
+                            <li class="orb-nav-bitesize"><a href="https://www.bbc.co.uk/bitesize"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#6100A8" d="M134,400H78c-0.552,0-1.052-0.224-1.414-0.586S76,398.552,76,398V162c0-0.552,0.224-1.052,0.586-1.414
+                S77.448,160,78,160h56c0.552,0,1.052,0.224,1.414,0.586S136,161.448,136,162v236c0,0.552-0.224,1.052-0.586,1.414
+                S134.552,400,134,400z"></path>
+                                            <path fill="#7222C6" d="M254,400h-92c-0.552,0-1.052-0.224-1.414-0.586S160,398.552,160,398V114c0-0.552,0.224-1.052,0.586-1.414
+                S161.448,112,162,112h92c0.552,0,1.052,0.224,1.414,0.586S256,113.448,256,114v284c0,0.552-0.224,1.052-0.586,1.414
+                S254.552,400,254,400z"></path>
+                                            <path fill="#963CE1" d="M444.77,373.863l-85.829,26.232c-0.529,0.162-1.073,0.093-1.526-0.148s-0.812-0.655-0.973-1.184
+                L273.901,126.63c-0.16-0.528-0.091-1.07,0.149-1.521c0.241-0.451,0.653-0.811,1.18-0.972l85.829-26.232
+                c0.529-0.162,1.073-0.093,1.526,0.148s0.812,0.655,0.973,1.184l82.542,272.133c0.16,0.528,0.091,1.07-0.149,1.521
+                C445.71,373.342,445.297,373.702,444.77,373.863z"></path>
+                                        </g>
+                                    </svg><span>Bitesize</span></a></li>
+                            <li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies"><span>CBeebies</span></a></li>
+                            <li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc"><span>CBBC</span></a></li>
+                            <li class="orb-nav-food"><a href="https://www.bbc.co.uk/food"><span>Food</span></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="orbit-header-links international">
+                        <ul>
+                            <li class="orb-nav-homedotcom"><a href="https://www.bbc.com/"><span>Home</span></a></li>
+                            <li class="orb-nav-newsdotcom"><a href="https://www.bbc.com/news"><span>News</span></a></li>
+                            <li class="orb-nav-sport"><a href="https://www.bbc.com/sport"><span>Sport</span></a></li>
+                            <li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel"><span>Reel</span></a></li>
+                            <li class="orb-nav-worklife"><a href="https://www.bbc.com/worklife"><span>Worklife</span></a></li>
+                            <li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel"><span>Travel</span></a></li>
+                            <li class="orb-nav-future"><a href="https://www.bbc.com/future"><span>Future</span></a></li>
+                            <li class="orb-nav-culture"><a href="https://www.bbc.com/culture"><span>Culture</span></a></li>
+                            <li class="orb-nav-tv"><a href="https://www.bbc.co.uk/schedules/p00fzl9m"><span>TV</span></a></li>
+                            <li class="orb-nav-weather"><a href="https://www.bbc.com/weather"><span>Weather</span></a></li>
+                            <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><span>Sounds</span></a></li>
+                        </ul>
+                    </nav>
+                    <div class="orbit-header-right"><a aria-label="All BBC destinations menu" class="orbit-header-more" href="https://www.bbc.co.uk/rd/projects#orbit-more-drawer" id="orbit-more-button" role="button" aria-expanded="false"><svg class="orbit-header-more-desktop" width="20" height="4" viewBox="0 0 20 4" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Overflow" transform="translate(-14.000000, -22.000000)">
+                                    <path d="M18,22 L18,26 L14,26 L14,22 L18,22 Z M34,22 L34,26 L30,26 L30,22 L34,22 Z M26,22 L26,26 L22,26 L22,22 L26,22 Z" id="More"></path>
+                                </g>
+                            </svg><svg class="orbit-header-more-mobile" width="24" height="22" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.63393H20V0H0V3.63393ZM0 10.9018H20V7.26787H0V10.9018ZM0 18.5H20V14.8661H0V18.5Z"></path>
+                            </svg><span class="orbit-button-text">More menu</span></a>
+                        <div class="orb-nav-section orb-nav-search" role="search"> <a id="orbit-search-button" class="orbit-search__button" aria-expanded="false" href="https://search.bbc.co.uk/search?scope=all&amp;destination=BBC_CORPORATE_PS" title="Search BBC"><span class="ux-v4">Search BBC</span> <span class="ux-v5"><svg class="orbit-search-button-icon-only" width="28" height="29" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path d="M11,-0.0001 C17.0751322,-0.0001 22,4.92476775 22,10.9999 C22,13.5276632 21.1473793,15.8562862 19.7140404,17.7138664 L28,26 L25,29 L16.518046,20.5178339 C14.8960209,21.4602385 13.0110328,21.9999 11,21.9999 C4.92486775,21.9999 0,17.0750322 0,10.9999 C0,4.92476775 4.92486775,-0.0001 11,-0.0001 Z M11,2.5 C6.30557963,2.5 2.5,6.30557963 2.5,11 C2.5,15.6944204 6.30557963,19.5 11,19.5 C15.6944204,19.5 19.5,15.6944204 19.5,11 C19.5,6.30557963 15.6944204,2.5 11,2.5 Z"></path>
+                                    </svg><svg class="orbit-search-button-icon-with-text" width="15" height="16" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path d="M6,-5.32907052e-15 C9.3137085,-5.32907052e-15 12,2.6862915 12,6 C12,7.43892143 11.4934776,8.75953821 10.6490096,9.79327337 L15,14.24 L13.2782609,16 L8.72578477,11.3465317 C7.90789326,11.7643456 6.98146665,12 6,12 C2.6862915,12 -1.687539e-14,9.3137085 -1.687539e-14,6 C-1.687539e-14,2.6862915 2.6862915,-5.32907052e-15 6,-5.32907052e-15 Z M6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 Z"></path>
+                                    </svg><span>Search BBC</span></span></a> </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="orbit-drawer-container" class="orbit-drawer-container"></div>
+        <section class="orbit-more-drawer geo orbit-default orbit-language-en b-r b-g-p orbit-domestic-no" id="orbit-more-drawer">
+            <div class="orbit-more-drawer-content">
+                <ul class="more-domestic">
+                    <li class="orb-nav-home"><a href="https://www.bbc.co.uk/"><span>Home</span></a></li>
+                    <li class="orb-nav-news"><a href="https://www.bbc.co.uk/news"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#B80000" d="M302,424h-68c-0.552,0-1.052-0.224-1.414-0.586S232,422.552,232,422V306c0-0.552,0.224-1.052,0.586-1.414
+                S233.448,304,234,304h68c0.552,0,1.052,0.224,1.414,0.586S304,305.448,304,306v116c0,0.552-0.224,1.052-0.586,1.414
+                S302.552,424,302,424z"></path>
+                                    <path fill="#EB0000" d="M422,280H234c-0.552,0-1.052-0.224-1.414-0.586S232,278.552,232,278V90c0-0.552,0.224-1.052,0.586-1.414
+                S233.448,88,234,88h188c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v188c0,0.552-0.224,1.052-0.586,1.414
+                S422.552,280,422,280z"></path>
+                                    <path fill="#D30000" d="M206,328H90c-0.552,0-1.052-0.224-1.414-0.586S88,326.552,88,326V210c0-0.552,0.224-1.052,0.586-1.414
+                S89.448,208,90,208h116c0.552,0,1.052,0.224,1.414,0.586S208,209.448,208,210v116c0,0.552-0.224,1.052-0.586,1.414
+                S206.552,328,206,328z"></path>
+                                </g>
+                            </svg><span>News</span></a></li>
+                    <li class="orb-nav-sport"><a href="https://www.bbc.co.uk/sport"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#FFD230" d="M90,184h332c0.552,0,1.052-0.224,1.414-0.586S424,182.552,424,182V90c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,88,422,88H90c-0.552,0-1.052,0.224-1.414,0.586S88,89.448,88,90v92c0,0.552,0.224,1.052,0.586,1.414S89.448,184,90,184z"></path>
+                                    <path fill="#FFA100" d="M306,424h116c0.552,0,1.052-0.224,1.414-0.586S424,422.552,424,422v-92c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,328,422,328H306c-0.552,0-1.052,0.224-1.414,0.586S304,329.448,304,330v92c0,0.552,0.224,1.052,0.586,1.414
+                S305.448,424,306,424z"></path>
+                                    <path fill="#FFBA00" d="M210,304h212c0.552,0,1.052-0.224,1.414-0.586S424,302.552,424,302v-92c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,208,422,208H210c-0.552,0-1.052,0.224-1.414,0.586S208,209.448,208,210v92c0,0.552,0.224,1.052,0.586,1.414
+                S209.448,304,210,304z"></path>
+                                </g>
+                            </svg><span>Sport</span></a></li>
+                    <li class="orb-nav-weather"><a href="https://www.bbc.co.uk/weather"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#067EB3" d="M316.234,368.56l52.326-52.326c0.391-0.391,0.586-0.902,0.586-1.414c0-0.512-0.195-1.024-0.586-1.414
+                L252.594,197.44c-0.391-0.391-0.902-0.586-1.414-0.586s-1.024,0.195-1.414,0.586l-52.326,52.326
+                c-0.391,0.391-0.586,0.902-0.586,1.414s0.195,1.024,0.586,1.414L313.406,368.56c0.391,0.391,0.902,0.586,1.414,0.586
+                C315.332,369.146,315.844,368.95,316.234,368.56z"></path>
+                                    <path fill="#1969A6" d="M90,424h74c0.552,0,1.052-0.224,1.414-0.586S166,422.552,166,422V258c0-0.552-0.224-1.052-0.586-1.414
+                S164.552,256,164,256H90c-0.552,0-1.052,0.224-1.414,0.586S88,257.448,88,258v164c0,0.552,0.224,1.052,0.586,1.414
+                S89.448,424,90,424z"></path>
+                                    <path fill="#149EDC" d="M258,166h164c0.552,0,1.052-0.224,1.414-0.586S424,164.552,424,164V90c0-0.552-0.224-1.052-0.586-1.414
+                S422.552,88,422,88H258c-0.552,0-1.052,0.224-1.414,0.586S256,89.448,256,90v74c0,0.552,0.224,1.052,0.586,1.414
+                S257.448,166,258,166z"></path>
+                                </g>
+                            </svg><span>Weather</span></a></li>
+                    <li class="orb-nav-iplayer"><a href="https://www.bbc.co.uk/iplayer"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#DC2878" d="M182,358h-68c-0.55,0-1.05-0.225-1.412-0.587C112.225,357.05,112,356.55,112,356V156
+                c0-0.552,0.224-1.052,0.586-1.414S113.448,154,114,154h68c0.55,0,1.05,0.225,1.413,0.587C183.775,154.95,184,155.45,184,156v200
+                c0,0.552-0.224,1.052-0.586,1.414S182.552,358,182,358z"></path>
+                                    <path fill="#FF4C98" d="M372.106,248.243l34-58.89c0.275-0.476,0.33-1.022,0.197-1.517c-0.133-0.495-0.453-0.94-0.93-1.215
+                l-173.205-100c-0.478-0.276-1.023-0.332-1.518-0.2c-0.494,0.132-0.938,0.454-1.214,0.932l-34,58.89
+                c-0.275,0.476-0.33,1.022-0.197,1.517c0.133,0.495,0.453,0.94,0.93,1.215l173.205,100c0.478,0.276,1.023,0.332,1.518,0.2
+                C371.386,249.042,371.83,248.721,372.106,248.243z"></path>
+                                    <path fill="#AF0D5B" d="M372.106,263.757l34,58.89c0.275,0.476,0.33,1.022,0.197,1.517c-0.133,0.495-0.453,0.94-0.93,1.215
+                l-173.205,100c-0.478,0.276-1.023,0.332-1.518,0.2c-0.494-0.132-0.938-0.454-1.214-0.932l-34-58.89
+                c-0.275-0.476-0.33-1.022-0.197-1.517c0.133-0.495,0.453-0.94,0.93-1.215l173.205-100c0.478-0.276,1.023-0.332,1.518-0.2
+                C371.386,262.958,371.83,263.279,372.106,263.757z"></path>
+                                </g>
+                            </svg><span>iPlayer</span></a></li>
+                    <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#A13104" d="M122,304H78c-0.552,0-1.052-0.224-1.414-0.586S76,302.552,76,302v-92c0-0.552,0.224-1.052,0.586-1.414
+                S77.448,208,78,208h44c0.552,0,1.052,0.224,1.414,0.586S124,209.448,124,210v92c0,0.552-0.224,1.052-0.586,1.414
+                S122.552,304,122,304z"></path>
+                                    <path fill="#D24712" d="M230,376h-80c-0.552,0-1.052-0.224-1.414-0.586S148,374.552,148,374V138c0-0.552,0.224-1.052,0.586-1.414
+                S149.448,136,150,136h80c0.552,0,1.052,0.224,1.414,0.586S232,137.448,232,138v236c0,0.552-0.224,1.052-0.586,1.414
+                S230.552,376,230,376z"></path>
+                                    <path fill="#FA6400" d="M422,424H258c-0.552,0-1.052-0.224-1.414-0.586S256,422.552,256,422V90c0-0.552,0.224-1.052,0.586-1.414
+                S257.448,88,258,88h164c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v332c0,0.552-0.224,1.052-0.586,1.414
+                S422.552,424,422,424z"></path>
+                                </g>
+                            </svg><span>Sounds</span></a></li>
+                    <li class="orb-nav-bitesize"><a href="https://www.bbc.co.uk/bitesize"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                <g>
+                                    <path fill="#6100A8" d="M134,400H78c-0.552,0-1.052-0.224-1.414-0.586S76,398.552,76,398V162c0-0.552,0.224-1.052,0.586-1.414
+                S77.448,160,78,160h56c0.552,0,1.052,0.224,1.414,0.586S136,161.448,136,162v236c0,0.552-0.224,1.052-0.586,1.414
+                S134.552,400,134,400z"></path>
+                                    <path fill="#7222C6" d="M254,400h-92c-0.552,0-1.052-0.224-1.414-0.586S160,398.552,160,398V114c0-0.552,0.224-1.052,0.586-1.414
+                S161.448,112,162,112h92c0.552,0,1.052,0.224,1.414,0.586S256,113.448,256,114v284c0,0.552-0.224,1.052-0.586,1.414
+                S254.552,400,254,400z"></path>
+                                    <path fill="#963CE1" d="M444.77,373.863l-85.829,26.232c-0.529,0.162-1.073,0.093-1.526-0.148s-0.812-0.655-0.973-1.184
+                L273.901,126.63c-0.16-0.528-0.091-1.07,0.149-1.521c0.241-0.451,0.653-0.811,1.18-0.972l85.829-26.232
+                c0.529-0.162,1.073-0.093,1.526,0.148s0.812,0.655,0.973,1.184l82.542,272.133c0.16,0.528,0.091,1.07-0.149,1.521
+                C445.71,373.342,445.297,373.702,444.77,373.863z"></path>
+                                </g>
+                            </svg><span>Bitesize</span></a></li>
+                    <li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies"><span>CBeebies</span></a></li>
+                    <li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc"><span>CBBC</span></a></li>
+                    <li class="orb-nav-food"><a href="https://www.bbc.co.uk/food"><span>Food</span></a></li>
+                </ul>
+                <ul class="more-international">
+                    <li class="orb-nav-homedotcom"><a href="https://www.bbc.com/"><span>Home</span></a></li>
+                    <li class="orb-nav-newsdotcom"><a href="https://www.bbc.com/news"><span>News</span></a></li>
+                    <li class="orb-nav-sport"><a href="https://www.bbc.com/sport"><span>Sport</span></a></li>
+                    <li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel"><span>Reel</span></a></li>
+                    <li class="orb-nav-worklife"><a href="https://www.bbc.com/worklife"><span>Worklife</span></a></li>
+                    <li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel"><span>Travel</span></a></li>
+                    <li class="orb-nav-future"><a href="https://www.bbc.com/future"><span>Future</span></a></li>
+                    <li class="orb-nav-culture"><a href="https://www.bbc.com/culture"><span>Culture</span></a></li>
+                    <li class="orb-nav-tv"><a href="https://www.bbc.co.uk/schedules/p00fzl9m"><span>TV</span></a></li>
+                    <li class="orb-nav-weather"><a href="https://www.bbc.com/weather"><span>Weather</span></a></li>
+                    <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><span>Sounds</span></a></li>
+                </ul><a href="https://www.bbc.co.uk/rd/projects#" class="orbit-more-drawer-close" role="button"><svg width="32" height="32" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.48651 5.71054L5.79834 7.39871L12.3428 14.0225L5.81992 20.6229L7.46434 22.2673L13.9778 15.6768L20.5123 22.2895H20.5135L22.2017 20.6007L15.6567 13.9781L22.1795 7.37712L20.5351 5.73271L14.0216 12.3232L7.48651 5.71054Z"></path>
+                    </svg><span class="orbit-button-text">Close menu</span></a>
+            </div>
+        </section>
+    </div> <!-- Styling hook for shared modules only -->
+    <div id="orb-modules">
+
+        <div id="main" class="b-g-m b-r">
+            <header>
+                <h1><a href="https://www.bbc.co.uk/rd">Research &amp; Development</a></h1>
+            </header>
+            <nav id="blq-local-nav" class="container">
+                <h2 class="hidden b-font-family-serif">BBC R&amp;D navigation</h2>
+                <ul id="nav-site" class="clearfix">
+                    <li id="index-link" class="link first"><a href="https://www.bbc.co.uk/rd/">Home</a></li>
+                    <li id="about-link" class="link  has-children"><a href="https://www.bbc.co.uk/rd/about">About</a></li>
+                    <li id="projects-link" class="link on "><a href="https://www.bbc.co.uk/rd/projects">Projects</a></li>
+                    <li id="publications-link" class="link "><a href="https://www.bbc.co.uk/rd/publications">Publications</a></li>
+                    <li id="blog-link" class="link "><a href="https://www.bbc.co.uk/rd/blog">Blog</a></li>
+                    <li id="contacts-link" class="link "><a href="https://www.bbc.co.uk/rd/contacts">Contact Us</a></li>
+                    <li id="careers-link" class="link last has-children"><a href="https://www.bbc.co.uk/rd/careers">Careers</a></li>
+                </ul>
+                <a class="more-button" href="https://www.bbc.co.uk/rd/projects#" style="min-width: 39px;">More</a>
+                <ul id="nav-site-more" class="clearfix more-list"></ul>
+                <h3 class="b-font-family-serif">Projects</h3>
+                <ul id="nav-page" class="clearfix">
+
+
+
+
+
+
+
+                </ul>
+                <a class="more-button" href="https://www.bbc.co.uk/rd/projects#" style="min-width: 39px;">More</a>
+                <ul id="nav-page-more" class="clearfix more-list"></ul>
+                <script src="./Projects - BBC R&amp;D_files/nav-1718a1f964be204ac6d1b5e9d058806d.js.download"></script>
+            </nav>
+            <section class="clearfix">
+
+                <article class="span8">
+                    <header class="header header-title-dark standalone search-height text-container">
+                        <h1 class="title b-font-family-serif">Projects</h1>
+                    </header>
+
+                    <section class="block text-container container-no-padding">
+                        <h2 class="hd text-container container-title container-weight-normal b-font-family-serif">
+                            Latest <strong>projects</strong>
+                            <a class="postscript postscript-no-icon" href="https://www.bbc.co.uk/rd/search?Type=Projects">View all projects</a>
+                        </h2>
+                        <ul class="listing">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/producing-audio-experiences">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjM5YzgyZGQwNmQ2M2UwZGYzMDAwMTYyL2ZpbGVzL3N0dWRpb19fMV8ucG5nIl0sWyJwIiwidGh1bWIiLCIxNjB4OTAjIl1d/studio__1_.png?sha=2ce222ea652417c6 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjM5YzgyZGQwNmQ2M2UwZGYzMDAwMTYyL2ZpbGVzL3N0dWRpb19fMV8ucG5nIl0sWyJwIiwidGh1bWIiLCIzMjB4MTgwIyJdXQ/studio__1_.png?sha=66000536807cc194 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjM5YzgyZGQwNmQ2M2UwZGYzMDAwMTYyL2ZpbGVzL3N0dWRpb19fMV8ucG5nIl0sWyJwIiwidGh1bWIiLCIyNTZ4MTQ0IyJdXQ/studio__1_.png?sha=24ae1a4be155d8e8 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjM5YzgyZGQwNmQ2M2UwZGYzMDAwMTYyL2ZpbGVzL3N0dWRpb19fMV8ucG5nIl0sWyJwIiwidGh1bWIiLCI1MTJ4Mjg4IyJdXQ/studio__1_.png?sha=9c636004974dbb53 512w" alt="Producing audio experiences">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Producing audio experiences</h3>
+
+
+
+                                        <p>
+
+                                            Investigating new ways to capture, process, and analyse audio, and developing new production tools for editing, mixing, and monitoring.
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/personalised-accessible-audio-experiences">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjMzYWQ5YTgwNmQ2M2U3MGZkMDAwMjBiL2ZpbGVzL3N0dWRpby5wbmciXSxbInAiLCJ0aHVtYiIsIjE2MHg5MCMiXV0/studio.png?sha=40d11ce0bde5ef74 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjMzYWQ5YTgwNmQ2M2U3MGZkMDAwMjBiL2ZpbGVzL3N0dWRpby5wbmciXSxbInAiLCJ0aHVtYiIsIjMyMHgxODAjIl1d/studio.png?sha=be5fe8b91052ad4b 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjMzYWQ5YTgwNmQ2M2U3MGZkMDAwMjBiL2ZpbGVzL3N0dWRpby5wbmciXSxbInAiLCJ0aHVtYiIsIjI1NngxNDQjIl1d/studio.png?sha=56b19bbd915e25a0 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjMzYWQ5YTgwNmQ2M2U3MGZkMDAwMjBiL2ZpbGVzL3N0dWRpby5wbmciXSxbInAiLCJ0aHVtYiIsIjUxMngyODgjIl1d/studio.png?sha=3d2dca19679fb8ea 512w" alt="Personalised and accessible audio experiences">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Personalised and accessible audio experiences</h3>
+
+
+
+                                        <p>
+
+                                            Creating and evaluating personalised and accessible listening experiences based on a listener’s needs, personal preferences, and listening environment, in collaboration with partners across industry and academia.
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/old-school-dataset">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjI2OTM4ODcwNmQ2M2VmYTdmMDAwNGZlL2ZpbGVzL29sZC1zY2hvb2wucG5nIl0sWyJwIiwidGh1bWIiLCIxNjB4OTAjIl1d/old-school.png?sha=26c88979ad2a7a1d 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjI2OTM4ODcwNmQ2M2VmYTdmMDAwNGZlL2ZpbGVzL29sZC1zY2hvb2wucG5nIl0sWyJwIiwidGh1bWIiLCIzMjB4MTgwIyJdXQ/old-school.png?sha=45aff08f3c7a23ad 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjI2OTM4ODcwNmQ2M2VmYTdmMDAwNGZlL2ZpbGVzL29sZC1zY2hvb2wucG5nIl0sWyJwIiwidGh1bWIiLCIyNTZ4MTQ0IyJdXQ/old-school.png?sha=5f4277acc5b68d61 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjI2OTM4ODcwNmQ2M2VmYTdmMDAwNGZlL2ZpbGVzL29sZC1zY2hvb2wucG5nIl0sWyJwIiwidGh1bWIiLCI1MTJ4Mjg4IyJdXQ/old-school.png?sha=d3de1e4abf8175fd 512w" alt="Old School Dataset">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Old School Dataset</h3>
+
+
+
+                                        <p>
+
+                                            This dataset contains clips of rushes of a short television programme produced by BBC R&amp;D called ‘Old School’, with behind-the-scenes content and metadata. This dataset is made available to researchers...
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/making-ai-more-understandable">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjBhMzhjMmMwNmQ2M2VjNzJhMDAwMmNhL2ZpbGVzL1VuZGVyc3RhbmRpbmdNTFByb2plY3RQYWdlLmpwZyJdLFsicCIsInRodW1iIiwiMTYweDkwIyJdXQ/UnderstandingMLProjectPage.jpg?sha=dec024536435c2f7 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjBhMzhjMmMwNmQ2M2VjNzJhMDAwMmNhL2ZpbGVzL1VuZGVyc3RhbmRpbmdNTFByb2plY3RQYWdlLmpwZyJdLFsicCIsInRodW1iIiwiMzIweDE4MCMiXV0/UnderstandingMLProjectPage.jpg?sha=ccc8ac973039600d 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjBhMzhjMmMwNmQ2M2VjNzJhMDAwMmNhL2ZpbGVzL1VuZGVyc3RhbmRpbmdNTFByb2plY3RQYWdlLmpwZyJdLFsicCIsInRodW1iIiwiMjU2eDE0NCMiXV0/UnderstandingMLProjectPage.jpg?sha=9d105e78f08247c8 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNjBhMzhjMmMwNmQ2M2VjNzJhMDAwMmNhL2ZpbGVzL1VuZGVyc3RhbmRpbmdNTFByb2plY3RQYWdlLmpwZyJdLFsicCIsInRodW1iIiwiNTEyeDI4OCMiXV0/UnderstandingMLProjectPage.jpg?sha=e876eb0abfe34f1c 512w" alt="Making AI More Understandable">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Making AI More Understandable</h3>
+
+
+
+                                        <p>
+
+                                            Artificial Intelligence or “AI” (also known as machine learning) is ubiquitous, but we might not know it is there, and it can go wrong. It’s a technology underpinning important decisions...
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/audio-device-orchestration">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZhZDdlNDgwNmQ2M2U3ZTA2MDAwMWJhL2ZpbGVzLzA4X0ZpbmFsSW50ZXJmYWNlLTE5MjB4MTA4MC5qcGciXSxbInAiLCJ0aHVtYiIsIjE2MHg5MCMiXV0/08_FinalInterface-1920x1080.jpg?sha=1554542e0e0c9c50 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZhZDdlNDgwNmQ2M2U3ZTA2MDAwMWJhL2ZpbGVzLzA4X0ZpbmFsSW50ZXJmYWNlLTE5MjB4MTA4MC5qcGciXSxbInAiLCJ0aHVtYiIsIjMyMHgxODAjIl1d/08_FinalInterface-1920x1080.jpg?sha=e617323b23ea998d 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZhZDdlNDgwNmQ2M2U3ZTA2MDAwMWJhL2ZpbGVzLzA4X0ZpbmFsSW50ZXJmYWNlLTE5MjB4MTA4MC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1NngxNDQjIl1d/08_FinalInterface-1920x1080.jpg?sha=849c8e9ca06d7217 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZhZDdlNDgwNmQ2M2U3ZTA2MDAwMWJhL2ZpbGVzLzA4X0ZpbmFsSW50ZXJmYWNlLTE5MjB4MTA4MC5qcGciXSxbInAiLCJ0aHVtYiIsIjUxMngyODgjIl1d/08_FinalInterface-1920x1080.jpg?sha=8abe515bebd8c69c 512w" alt="Audio Device Orchestration">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Audio Device Orchestration</h3>
+
+
+
+                                        <p>
+
+                                            Creating immersive and interactive audio experiences for a large number of listeners through a set of connected and synchronised devices.
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/intelligent-audio-production-tools">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMjljNDIwNmQ2M2UyMTM4MDAwMDIwL2ZpbGVzL2F1ZGlvLWVkaXQtMTkyMHgxMDgwLTI1NzkwNC5wbmciXSxbInAiLCJ0aHVtYiIsIjE2MHg5MCMiXV0/audio-edit-1920x1080-257904.png?sha=1dd574b6ad801121 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMjljNDIwNmQ2M2UyMTM4MDAwMDIwL2ZpbGVzL2F1ZGlvLWVkaXQtMTkyMHgxMDgwLTI1NzkwNC5wbmciXSxbInAiLCJ0aHVtYiIsIjMyMHgxODAjIl1d/audio-edit-1920x1080-257904.png?sha=ce17fc6b204d1483 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMjljNDIwNmQ2M2UyMTM4MDAwMDIwL2ZpbGVzL2F1ZGlvLWVkaXQtMTkyMHgxMDgwLTI1NzkwNC5wbmciXSxbInAiLCJ0aHVtYiIsIjI1NngxNDQjIl1d/audio-edit-1920x1080-257904.png?sha=2530502e86bc3ef0 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMjljNDIwNmQ2M2UyMTM4MDAwMDIwL2ZpbGVzL2F1ZGlvLWVkaXQtMTkyMHgxMDgwLTI1NzkwNC5wbmciXSxbInAiLCJ0aHVtYiIsIjUxMngyODgjIl1d/audio-edit-1920x1080-257904.png?sha=2dffbdac12e5063f 512w" alt="Intelligent Audio Production Tools">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Intelligent Audio Production Tools</h3>
+
+
+
+                                        <p>
+
+                                            Making production easier and more efficient by helping to organise, navigate, and enhance audio plus creating new types of programmes that would otherwise be impractical or impossible.
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="block  container-collapsed text-container container-no-padding">
+                                <a href="https://www.bbc.co.uk/rd/projects/next-generation-audio">
+
+
+                                    <div class="media">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" sizes="(min-width: 480px) 160w, (min-width: 640px) 256w, 100vw" srcset="/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMmI4MWIwNmQ2M2U2YTUzMDAwMDIyL2ZpbGVzL3R2LXNwZWFrZXJzLTE5MjB4MTA4MC1yZkZ6S0FqdGVyMC5wbmciXSxbInAiLCJ0aHVtYiIsIjE2MHg5MCMiXV0/tv-speakers-1920x1080-rfFzKAjter0.png?sha=7f0de93bab41e09a 160w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMmI4MWIwNmQ2M2U2YTUzMDAwMDIyL2ZpbGVzL3R2LXNwZWFrZXJzLTE5MjB4MTA4MC1yZkZ6S0FqdGVyMC5wbmciXSxbInAiLCJ0aHVtYiIsIjMyMHgxODAjIl1d/tv-speakers-1920x1080-rfFzKAjter0.png?sha=49b9083ecc5dc496 320w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMmI4MWIwNmQ2M2U2YTUzMDAwMDIyL2ZpbGVzL3R2LXNwZWFrZXJzLTE5MjB4MTA4MC1yZkZ6S0FqdGVyMC5wbmciXSxbInAiLCJ0aHVtYiIsIjI1NngxNDQjIl1d/tv-speakers-1920x1080-rfFzKAjter0.png?sha=1bda4efa89029ae0 256w, /rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNWZiMmI4MWIwNmQ2M2U2YTUzMDAwMDIyL2ZpbGVzL3R2LXNwZWFrZXJzLTE5MjB4MTA4MC1yZkZ6S0FqdGVyMC5wbmciXSxbInAiLCJ0aHVtYiIsIjUxMngyODgjIl1d/tv-speakers-1920x1080-rfFzKAjter0.png?sha=7466c43c3bf83eb6 512w" alt="Next Generation Audio">
+                                    </div>
+
+
+                                    <div class="teaser text-container container-discreet ">
+                                        <h3 class="b-font-family-serif">Next Generation Audio</h3>
+
+
+
+                                        <p>
+
+                                            Creating a personalised, accessible and immersive listening experience whatever situation you are listening in, by trialling and collaborating with industry, partners, and producers.
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <a class="text-container container-link container-discreet" href="https://www.bbc.co.uk/rd/search?Type=Projects">
+                                    <h3 class="b-font-family-serif">View all projects</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+                <!-- Sidebar -->
+
+                <aside class="span4">
+                    <section class="search text-container ">
+                        <h2 class="b-font-family-serif">Search BBC R&amp;D</h2>
+                        <span class="angle">&nbsp;</span>
+                        <p>Explore our projects, publications and blog posts</p>
+                        <form id="search" action="https://www.bbc.co.uk/rd/search" method="get">
+                            <label for="search-text">Search BBC R&amp;D</label>
+                            <input id="search-text" class="text" name="query" type="text" placeholder="Enter titles, keywords, names..." value="">
+                            <button type="submit" id="search-submit" name="submit">
+                                <i aria-hidden="true" class="gelicon gelicon--search"></i>
+                                <span class="hidden">Search</span>
+                            </button>
+                        </form>
+                    </section>
+
+
+                    <section class="block research-areas">
+                        <h2 class="hd title text-container container-title container-weight-normal b-font-family-serif">Browse projects by <strong>topic</strong></h2>
+                        <div class="topics text-container container-no-padding">
+                            <ul class="clearfix">
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/sustainability?Type=Projects">Sustainability</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/children?Type=Projects">Children</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/ip-production-broadcast?Type=Projects">IP Production &amp; Broadcast</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/artificial-intelligence-machine-learning?Type=Projects">Artificial Intelligence &amp; Machine Learning</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/data?Type=Projects">Data</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/360-video-virtual-and-augmented-reality?Type=Projects">VR, AR &amp; 360˚ Video</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/voice-interfaces?Type=Projects">Voice Interfaces</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/mobile?Type=Projects">Mobile</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/sport?Type=Projects">Sport</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/journalism?Type=Projects">Journalism</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/distribution?Type=Projects">Distribution</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/production?Type=Projects">Production</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/editing?Type=Projects">Editing</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/synchronisation?Type=Projects">Synchronisation</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/social?Type=Projects">Social</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/quality?Type=Projects">Quality</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/content-formats?Type=Projects">Content Formats</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/performance?Type=Projects">Performance</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/networks?Type=Projects">Networks</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/metadata?Type=Projects">Metadata</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/live?Type=Projects">Live Events</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/internet?Type=Projects">Internet</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/graphics-effects?Type=Projects">Graphics &amp; Effects</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/devices?Type=Projects">Devices</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/content-discovery?Type=Projects">Content Discovery</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/automation?Type=Projects">Automation</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/broadcast?Type=Projects">Broadcast</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/archives?Type=Projects">Archives</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/participation?Type=Projects">Participation</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/personalisation?Type=Projects">Personalisation</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/interactivity?Type=Projects">Interactivity</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/audience-research?Type=Projects">Audience Research</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/audio?Type=Projects">Audio</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/immersion?Type=Projects">Immersion</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/accessibility?Type=Projects">Accessibility</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/ondemand?Type=Projects">On Demand</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/interfaces?Type=Projects">User Interfaces</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/recommendations?Type=Projects">Recommendations</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/television?Type=Projects">Television</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/video?Type=Projects">Video</a></li>
+
+                                <li><a href="https://www.bbc.co.uk/rd/topics/radio?Type=Projects">Radio</a></li>
+
+                            </ul>
+
+                        </div>
+                    </section>
+                </aside>
+
+            </section>
+        </div>
+    </div>
+    <div id="orb-footer" class="orb-footer orbit-domestic-no" dir="ltr">
+        <div id="navp-orb-footer-promo"></div>
+        <aside role="complementary">
+            <div id="orb-aside" class="orb-nav-sec b-r b-g-p">
+                <div class="orb-footer-inner" role="navigation" aria-label="BBC">
+                    <h2 class="orb-footer-lead b-font-family-serif">Explore the BBC</h2>
+                    <div class="orb-footer-primary-links">
+                        <ul class="domestic">
+                            <li class="orb-nav-home"><a href="https://www.bbc.co.uk/"><span>Home</span></a></li>
+                            <li class="orb-nav-news"><a href="https://www.bbc.co.uk/news"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#B80000" d="M302,424h-68c-0.552,0-1.052-0.224-1.414-0.586S232,422.552,232,422V306c0-0.552,0.224-1.052,0.586-1.414
+                                        S233.448,304,234,304h68c0.552,0,1.052,0.224,1.414,0.586S304,305.448,304,306v116c0,0.552-0.224,1.052-0.586,1.414
+                                        S302.552,424,302,424z"></path>
+                                            <path fill="#EB0000" d="M422,280H234c-0.552,0-1.052-0.224-1.414-0.586S232,278.552,232,278V90c0-0.552,0.224-1.052,0.586-1.414
+                                        S233.448,88,234,88h188c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v188c0,0.552-0.224,1.052-0.586,1.414
+                                        S422.552,280,422,280z"></path>
+                                            <path fill="#D30000" d="M206,328H90c-0.552,0-1.052-0.224-1.414-0.586S88,326.552,88,326V210c0-0.552,0.224-1.052,0.586-1.414
+                                        S89.448,208,90,208h116c0.552,0,1.052,0.224,1.414,0.586S208,209.448,208,210v116c0,0.552-0.224,1.052-0.586,1.414
+                                        S206.552,328,206,328z"></path>
+                                        </g>
+                                    </svg><span>News</span></a></li>
+                            <li class="orb-nav-sport"><a href="https://www.bbc.co.uk/sport"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#FFD230" d="M90,184h332c0.552,0,1.052-0.224,1.414-0.586S424,182.552,424,182V90c0-0.552-0.224-1.052-0.586-1.414
+                                        S422.552,88,422,88H90c-0.552,0-1.052,0.224-1.414,0.586S88,89.448,88,90v92c0,0.552,0.224,1.052,0.586,1.414S89.448,184,90,184z"></path>
+                                            <path fill="#FFA100" d="M306,424h116c0.552,0,1.052-0.224,1.414-0.586S424,422.552,424,422v-92c0-0.552-0.224-1.052-0.586-1.414
+                                        S422.552,328,422,328H306c-0.552,0-1.052,0.224-1.414,0.586S304,329.448,304,330v92c0,0.552,0.224,1.052,0.586,1.414
+                                        S305.448,424,306,424z"></path>
+                                            <path fill="#FFBA00" d="M210,304h212c0.552,0,1.052-0.224,1.414-0.586S424,302.552,424,302v-92c0-0.552-0.224-1.052-0.586-1.414
+                                        S422.552,208,422,208H210c-0.552,0-1.052,0.224-1.414,0.586S208,209.448,208,210v92c0,0.552,0.224,1.052,0.586,1.414
+                                        S209.448,304,210,304z"></path>
+                                        </g>
+                                    </svg><span>Sport</span></a></li>
+                            <li class="orb-nav-weather"><a href="https://www.bbc.co.uk/weather"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#067EB3" d="M316.234,368.56l52.326-52.326c0.391-0.391,0.586-0.902,0.586-1.414c0-0.512-0.195-1.024-0.586-1.414
+                                        L252.594,197.44c-0.391-0.391-0.902-0.586-1.414-0.586s-1.024,0.195-1.414,0.586l-52.326,52.326
+                                        c-0.391,0.391-0.586,0.902-0.586,1.414s0.195,1.024,0.586,1.414L313.406,368.56c0.391,0.391,0.902,0.586,1.414,0.586
+                                        C315.332,369.146,315.844,368.95,316.234,368.56z"></path>
+                                            <path fill="#1969A6" d="M90,424h74c0.552,0,1.052-0.224,1.414-0.586S166,422.552,166,422V258c0-0.552-0.224-1.052-0.586-1.414
+                                        S164.552,256,164,256H90c-0.552,0-1.052,0.224-1.414,0.586S88,257.448,88,258v164c0,0.552,0.224,1.052,0.586,1.414
+                                        S89.448,424,90,424z"></path>
+                                            <path fill="#149EDC" d="M258,166h164c0.552,0,1.052-0.224,1.414-0.586S424,164.552,424,164V90c0-0.552-0.224-1.052-0.586-1.414
+                                        S422.552,88,422,88H258c-0.552,0-1.052,0.224-1.414,0.586S256,89.448,256,90v74c0,0.552,0.224,1.052,0.586,1.414
+                                        S257.448,166,258,166z"></path>
+                                        </g>
+                                    </svg><span>Weather</span></a></li>
+                            <li class="orb-nav-iplayer"><a href="https://www.bbc.co.uk/iplayer"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#DC2878" d="M182,358h-68c-0.55,0-1.05-0.225-1.412-0.587C112.225,357.05,112,356.55,112,356V156
+                                        c0-0.552,0.224-1.052,0.586-1.414S113.448,154,114,154h68c0.55,0,1.05,0.225,1.413,0.587C183.775,154.95,184,155.45,184,156v200
+                                        c0,0.552-0.224,1.052-0.586,1.414S182.552,358,182,358z"></path>
+                                            <path fill="#FF4C98" d="M372.106,248.243l34-58.89c0.275-0.476,0.33-1.022,0.197-1.517c-0.133-0.495-0.453-0.94-0.93-1.215
+                                        l-173.205-100c-0.478-0.276-1.023-0.332-1.518-0.2c-0.494,0.132-0.938,0.454-1.214,0.932l-34,58.89
+                                        c-0.275,0.476-0.33,1.022-0.197,1.517c0.133,0.495,0.453,0.94,0.93,1.215l173.205,100c0.478,0.276,1.023,0.332,1.518,0.2
+                                        C371.386,249.042,371.83,248.721,372.106,248.243z"></path>
+                                            <path fill="#AF0D5B" d="M372.106,263.757l34,58.89c0.275,0.476,0.33,1.022,0.197,1.517c-0.133,0.495-0.453,0.94-0.93,1.215
+                                        l-173.205,100c-0.478,0.276-1.023,0.332-1.518,0.2c-0.494-0.132-0.938-0.454-1.214-0.932l-34-58.89
+                                        c-0.275-0.476-0.33-1.022-0.197-1.517c0.133-0.495,0.453-0.94,0.93-1.215l173.205-100c0.478-0.276,1.023-0.332,1.518-0.2
+                                        C371.386,262.958,371.83,263.279,372.106,263.757z"></path>
+                                        </g>
+                                    </svg><span>iPlayer</span></a></li>
+                            <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#A13104" d="M122,304H78c-0.552,0-1.052-0.224-1.414-0.586S76,302.552,76,302v-92c0-0.552,0.224-1.052,0.586-1.414
+                                        S77.448,208,78,208h44c0.552,0,1.052,0.224,1.414,0.586S124,209.448,124,210v92c0,0.552-0.224,1.052-0.586,1.414
+                                        S122.552,304,122,304z"></path>
+                                            <path fill="#D24712" d="M230,376h-80c-0.552,0-1.052-0.224-1.414-0.586S148,374.552,148,374V138c0-0.552,0.224-1.052,0.586-1.414
+                                        S149.448,136,150,136h80c0.552,0,1.052,0.224,1.414,0.586S232,137.448,232,138v236c0,0.552-0.224,1.052-0.586,1.414
+                                        S230.552,376,230,376z"></path>
+                                            <path fill="#FA6400" d="M422,424H258c-0.552,0-1.052-0.224-1.414-0.586S256,422.552,256,422V90c0-0.552,0.224-1.052,0.586-1.414
+                                        S257.448,88,258,88h164c0.552,0,1.052,0.224,1.414,0.586S424,89.448,424,90v332c0,0.552-0.224,1.052-0.586,1.414
+                                        S422.552,424,422,424z"></path>
+                                        </g>
+                                    </svg><span>Sounds</span></a></li>
+                            <li class="orb-nav-bitesize"><a href="https://www.bbc.co.uk/bitesize"><svg class="product-icon" width="1.75em" height="1.75em" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" focusable="false" aria-hidden="true">
+                                        <g>
+                                            <path fill="#6100A8" d="M134,400H78c-0.552,0-1.052-0.224-1.414-0.586S76,398.552,76,398V162c0-0.552,0.224-1.052,0.586-1.414
+                                        S77.448,160,78,160h56c0.552,0,1.052,0.224,1.414,0.586S136,161.448,136,162v236c0,0.552-0.224,1.052-0.586,1.414
+                                        S134.552,400,134,400z"></path>
+                                            <path fill="#7222C6" d="M254,400h-92c-0.552,0-1.052-0.224-1.414-0.586S160,398.552,160,398V114c0-0.552,0.224-1.052,0.586-1.414
+                                        S161.448,112,162,112h92c0.552,0,1.052,0.224,1.414,0.586S256,113.448,256,114v284c0,0.552-0.224,1.052-0.586,1.414
+                                        S254.552,400,254,400z"></path>
+                                            <path fill="#963CE1" d="M444.77,373.863l-85.829,26.232c-0.529,0.162-1.073,0.093-1.526-0.148s-0.812-0.655-0.973-1.184
+                                        L273.901,126.63c-0.16-0.528-0.091-1.07,0.149-1.521c0.241-0.451,0.653-0.811,1.18-0.972l85.829-26.232
+                                        c0.529-0.162,1.073-0.093,1.526,0.148s0.812,0.655,0.973,1.184l82.542,272.133c0.16,0.528,0.091,1.07-0.149,1.521
+                                        C445.71,373.342,445.297,373.702,444.77,373.863z"></path>
+                                        </g>
+                                    </svg><span>Bitesize</span></a></li>
+                            <li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies"><span>CBeebies</span></a></li>
+                            <li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc"><span>CBBC</span></a></li>
+                            <li class="orb-nav-food"><a href="https://www.bbc.co.uk/food"><span>Food</span></a></li>
+                        </ul>
+                        <ul class="international">
+                            <li class="orb-nav-homedotcom"><a href="https://www.bbc.com/"><span>Home</span></a></li>
+                            <li class="orb-nav-newsdotcom"><a href="https://www.bbc.com/news"><span>News</span></a></li>
+                            <li class="orb-nav-sport"><a href="https://www.bbc.com/sport"><span>Sport</span></a></li>
+                            <li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel"><span>Reel</span></a></li>
+                            <li class="orb-nav-worklife"><a href="https://www.bbc.com/worklife"><span>Worklife</span></a></li>
+                            <li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel"><span>Travel</span></a></li>
+                            <li class="orb-nav-future"><a href="https://www.bbc.com/future"><span>Future</span></a></li>
+                            <li class="orb-nav-culture"><a href="https://www.bbc.com/culture"><span>Culture</span></a></li>
+                            <li class="orb-nav-tv"><a href="https://www.bbc.co.uk/schedules/p00fzl9m"><span>TV</span></a></li>
+                            <li class="orb-nav-weather"><a href="https://www.bbc.com/weather"><span>Weather</span></a></li>
+                            <li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds"><span>Sounds</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer role="contentinfo">
+            <div id="orb-contentinfo" class="orb-nav-sec b-r b-g-p">
+                <div class="orb-footer-inner">
+                    <div>
+                        <ul>
+                            <li class="orb-footer-terms"><a href="https://www.bbc.co.uk/usingthebbc/terms/">Terms of Use</a></li>
+                            <li class="orb-footer-about"><a href="https://www.bbc.co.uk/aboutthebbc">About the BBC</a></li>
+                            <li class="orb-footer-privacy"><a href="https://www.bbc.co.uk/usingthebbc/privacy/">Privacy Policy</a></li>
+                            <li class="orb-footer-cookies"><a href="https://www.bbc.co.uk/usingthebbc/cookies/">Cookies</a></li>
+                            <li class="orb-footer-accessibility"><a href="https://www.bbc.co.uk/accessibility/">Accessibility Help</a></li>
+                            <li class="orb-footer-parental"><a href="https://www.bbc.co.uk/guidance">Parental Guidance</a></li>
+                            <li class="orb-footer-contact"><a href="https://www.bbc.co.uk/contact">Contact the BBC</a></li>
+                            <li class="orb-footer-editorial-complaint domestic"><a href="https://www.bbc.co.uk/contact/complaints/make-a-complaint/">Make an editorial complaint</a></li>
+                            <li class="orb-footer-newsletter"><a href="https://www.bbc.co.uk/bbcnewsletter">BBC emails for you</a></li>
+                            <li class="international orb-footer-ads"><a href="https://www.bbcglobalnews.com/">Advertise with us</a></li>
+                            <li class="international orb-footer-adchoices"><a href="https://www.bbc.com/usingthebbc/cookies/how-does-the-bbc-use-cookies-for-advertising/">AdChoices / Do Not Sell My Info</a></li>
+                        </ul><small><em class="orb-hilight">Copyright © 2022 BBC.</em> The BBC is not responsible for the content of external sites. <span class="orb-footer-links"><a href="https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links" class="orb-hilight">Read about our approach to external linking.</a></span></small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./Projects - BBC R&amp;D_files/redirect.js.download" async=""></script>
+    <script type="text/javascript" src="./Projects - BBC R&amp;D_files/performance.js.download" data-release="3.0.0-2289.7a752866" data-ux="v5" async=""></script>
+    <script type="module" src="./Projects - BBC R&amp;D_files/more-drawer.mjs"></script>
+    <script type="module" src="./Projects - BBC R&amp;D_files/orbit.mjs" async=""></script>
+    <script nomodule="" type="text/javascript" src="./Projects - BBC R&amp;D_files/orbit.js.download" async=""></script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        (function() {
+            function loadJs(url) {
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = url;
+                script.async = true;
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+            window.bbcuser.isUKCombined().then(function(isUK) {
+                if (isUK) {
+                    loadJs('https://static.files.bbci.co.uk/orbit/644077edc7f09faed9dd44fb4c1fae48/js/edr.js');
+                }
+            });
+        })();
+        /*]]>*/
+    </script>
+    <script type="module">
+        if (window.bbcuser && window.bbcuser.isUKCombined) {
+            bbcuser.isUKCombined().then(function(isUK) {
+                if (isUK) {
+                    import('https://nav.files.bbci.co.uk/searchbox/c8bfe8595e453f2b9483fda4074e9d15//js/search-suggest.js').then(drawer => {
+                        drawer.setupSearchDrawer({
+                            searchboxAppStaticPrefix: 'https://nav.files.bbci.co.uk/searchbox/c8bfe8595e453f2b9483fda4074e9d15/',
+                            variant: 'default',
+                        });
+                    });
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript" src="./Projects - BBC R&amp;D_files/footerpromo.js.download" data-base="https://navpromo.api.bbci.co.uk" data-variant="default" async=""></script>
+    <script type="text/javascript">
+        window.COOKIES_STATIC_HOST = "https://static.files.bbci.co.uk/cookies/d3bb303e79f041fec95388e04f84e716/cookie-banner/cookie-prompt/"
+    </script>
+    <script src="./Projects - BBC R&amp;D_files/cookie-banners.bundle.js.download" async=""></script>
+    <script src="./Projects - BBC R&amp;D_files/detectview.bundle.js.download" async=""></script>
+    <script type="text/javascript">
+        "use strict";
+        window.__reverb.__reverbLoadedPromise.then(function(e) {
+            return e.initialise().then(function() {
+                return e.viewEvent()
+            })
+        }, function() {
+            console.log("Failed to load reverb. No event sent")
+        });
+    </script>
+    <script src="./Projects - BBC R&amp;D_files/NotificationsMain.js.download" defer="defer"></script>
+    <script type="module">
+        const drawerAPI = await window.shimport('orbit-drawer');
+        !window.location.href.includes('/notifications') &&
+            window.bbcuser.isUKCombined().then(function(isUK) {
+                if (isUK) {
+                    window.NotificationsMain.run(drawerAPI, "https://mybbc.files.bbci.co.uk/notification-ui/5.0.19/");
+                }
+            })
+    </script>
+    <script src="./Projects - BBC R&amp;D_files/application-f8fe9211fbf892696f593f906fc3b836.js.download" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var _sf_async_config = _sf_async_config || {};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 50924;
+        _sf_async_config.domain = 'rd.bbc.co.uk';
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.sections = 'Projects';
+        _sf_async_config.authors = '';
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+                    oldonload();
+                    loadChartbeat();
+                };
+        })();
+    </script>
+
+    <script src="./Projects - BBC R&amp;D_files/door.js.download" async="" id="dotmetrics"></script>
+    <script language="javascript" type="text/javascript" src="./Projects - BBC R&amp;D_files/chartbeat.js.download"></script>
+</body>
+
+</html>

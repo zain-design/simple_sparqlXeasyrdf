@@ -1,0 +1,14 @@
+SELECT ?judul ?halaman ?ISBN ?tahun  ?namaPenulis ?alamatPenulis  ?namaPenerbit ?alamatPenerbit WHERE { 
+            ?books	 d:Judul ?judul.
+            OPTIONAL {
+            ?books	 d:Halaman ?halaman.
+            ?books	 d:ISBN ?ISBN.
+            ?books	 d:Tahun_Terbit ?tahun.
+            ?books	 d:ditulis ?writers.
+            ?writers d:Nama_Penulis ?namaPenulis.
+            ?writers d:Alamat_Penulis ?alamatPenulis.
+            ?books	 d:diterbitkan ?publishers.
+            ?publishers d:Nama_Penerbit ?namaPenerbit.
+            ?publishers d:Alamat_Penerbit ?alamatPenerbit.
+            }
+            }
